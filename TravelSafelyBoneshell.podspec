@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.29'
+    s.version           = '1.0.30'
     s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK.'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
