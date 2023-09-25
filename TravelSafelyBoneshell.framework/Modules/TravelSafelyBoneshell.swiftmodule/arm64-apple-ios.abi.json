@@ -72228,6 +72228,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "RealmSubscribable",
+            "printedName": "RealmSubscribable",
+            "usr": "s:10RealmSwift0A12SubscribableP",
+            "mangledName": "$s10RealmSwift0A12SubscribableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathRecorder",
+            "printedName": "KeypathRecorder",
+            "usr": "s:10RealmSwift15KeypathRecorderP",
+            "mangledName": "$s10RealmSwift15KeypathRecorderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BuiltInObjcBridgeable",
+            "printedName": "BuiltInObjcBridgeable",
+            "usr": "s:10RealmSwift21BuiltInObjcBridgeableP",
+            "mangledName": "$s10RealmSwift21BuiltInObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathSortable",
+            "printedName": "KeypathSortable",
+            "usr": "s:10RealmSwift15KeypathSortableP",
+            "mangledName": "$s10RealmSwift15KeypathSortableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableObject",
             "printedName": "ObservableObject",
             "children": [
@@ -72258,10 +72293,67 @@
           },
           {
             "kind": "Conformance",
-            "name": "RealmSubscribable",
-            "printedName": "RealmSubscribable",
-            "usr": "s:10RealmSwift0A12SubscribableP",
-            "mangledName": "$s10RealmSwift0A12SubscribableP"
+            "name": "SchemaDiscoverable",
+            "printedName": "SchemaDiscoverable",
+            "usr": "s:10RealmSwift18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RealmSwiftObject",
+                    "printedName": "Realm.RealmSwiftObject",
+                    "usr": "c:objc(cs)RealmSwiftObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
           },
           {
             "kind": "Conformance",
@@ -72279,17 +72371,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ManagedPropertyType",
-            "printedName": "_ManagedPropertyType",
-            "usr": "s:10RealmSwift20_ManagedPropertyTypeP",
-            "mangledName": "$s10RealmSwift20_ManagedPropertyTypeP"
+            "name": "RealmFetchable",
+            "printedName": "RealmFetchable",
+            "usr": "s:10RealmSwift0A9FetchableP",
+            "mangledName": "$s10RealmSwift0A9FetchableP"
           },
           {
             "kind": "Conformance",
-            "name": "AssistedObjectiveCBridgeable",
-            "printedName": "AssistedObjectiveCBridgeable",
-            "usr": "s:10RealmSwift28AssistedObjectiveCBridgeableP",
-            "mangledName": "$s10RealmSwift28AssistedObjectiveCBridgeableP"
+            "name": "_ObservedResultsValue",
+            "printedName": "_ObservedResultsValue",
+            "usr": "s:10RealmSwift21_ObservedResultsValueP",
+            "mangledName": "$s10RealmSwift21_ObservedResultsValueP"
           }
         ]
       },
@@ -95257,6 +95349,77 @@
           },
           {
             "kind": "Conformance",
+            "name": "SchemaDiscoverable",
+            "printedName": "SchemaDiscoverable",
+            "usr": "s:10RealmSwift18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Indexable",
+            "printedName": "_Indexable",
+            "usr": "s:10RealmSwift10_IndexableP",
+            "mangledName": "$s10RealmSwift10_IndexableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BSON",
             "printedName": "BSON",
             "usr": "s:10RealmSwift4BSONP",
@@ -95264,10 +95427,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "_ManagedPropertyType",
-            "printedName": "_ManagedPropertyType",
-            "usr": "s:10RealmSwift20_ManagedPropertyTypeP",
-            "mangledName": "$s10RealmSwift20_ManagedPropertyTypeP"
+            "name": "PartitionValue",
+            "printedName": "PartitionValue",
+            "usr": "s:10RealmSwift14PartitionValueP",
+            "mangledName": "$s10RealmSwift14PartitionValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DefaultObjcBridgeable",
+            "printedName": "DefaultObjcBridgeable",
+            "usr": "s:10RealmSwift21DefaultObjcBridgeableP",
+            "mangledName": "$s10RealmSwift21DefaultObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_QueryNumeric",
+            "printedName": "_QueryNumeric",
+            "usr": "s:10RealmSwift13_QueryNumericP",
+            "mangledName": "$s10RealmSwift13_QueryNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
           },
           {
             "kind": "Conformance",
@@ -95282,6 +95466,13 @@
             "printedName": "MinMaxType",
             "usr": "s:10RealmSwift10MinMaxTypeP",
             "mangledName": "$s10RealmSwift10MinMaxTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SortableType",
+            "printedName": "SortableType",
+            "usr": "s:10RealmSwift12SortableTypeP",
+            "mangledName": "$s10RealmSwift12SortableTypeP"
           }
         ]
       },
