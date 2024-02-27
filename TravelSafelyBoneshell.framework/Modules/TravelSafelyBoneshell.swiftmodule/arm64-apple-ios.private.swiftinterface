@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name TravelSafelyBoneshell
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -51,41 +51,41 @@ public protocol signalDataProtocol : AnyObject {
   func storeDataProtocol(_ myData: Swift.String)
   init()
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class StartViewController : UIKit.UIViewController, CoreLocation.CLLocationManagerDelegate {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: (any TravelSafelyBoneshell.signalDataProtocol)?
-  @_Concurrency.MainActor(unsafe) public var authenticateWhenServiceAreaNotAvailable: Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public func switchTestOnDesk(setVal: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func updateServiceAreaFromDemoSecond(_ notification: Foundation.NSDictionary)
-  @_Concurrency.MainActor(unsafe) public func updateServiceAreaFromFixedLocation(_ notification: Foundation.NSDictionary)
-  @_Concurrency.MainActor(unsafe) public func testOnDeskSwitch()
-  @_Concurrency.MainActor(unsafe) public func updateLocationandCallOthers()
-  @objc @_Concurrency.MainActor(unsafe) public func determineUserModeAutomatically()
-  @_Concurrency.MainActor(unsafe) public func setLocalData(type: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func showActionSheetToGetDeviceID()
-  @_Concurrency.MainActor(unsafe) public func reloadFloatingButtons()
-  @_Concurrency.MainActor(unsafe) public func setVehicleModeText(vehicleModeLbl: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func stopSocketConnection()
-  @_Concurrency.MainActor(unsafe) public func setBottomBarButtonIcon(vehicleMode: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func doOncePerSecond()
-  @_Concurrency.MainActor(unsafe) public func checkActiveSpat()
-  @_Concurrency.MainActor(unsafe) public func phases_onSelect()
-  @objc @_Concurrency.MainActor(unsafe) public func setTraficSignalsRepete()
-  @_Concurrency.MainActor(unsafe) public func setTrafficSignals()
-  @_Concurrency.MainActor(unsafe) public func travelSafelyVisibility(setVisibility: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func checkPreemption()
-  @objc @_Concurrency.MainActor(unsafe) public func listenToServer(readData: Foundation.Data, fromUblox: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func checkSpatBuffer()
-  @_Concurrency.MainActor(unsafe) public func niceName()
-  @_Concurrency.MainActor(unsafe) public func updateServiceAreaValue()
-  @objc @_Concurrency.MainActor(unsafe) public func invalidTimerDuringLogout()
-  @_Concurrency.MainActor(unsafe) public func motTapped()
-  @_Concurrency.MainActor(unsafe) public func cycTapped()
-  @_Concurrency.MainActor(unsafe) public func pedTapped()
-  @_Concurrency.MainActor(unsafe) public func clearSpatArray()
-  @_Concurrency.MainActor(unsafe) public func clearDeviceSpatArray()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers public class StartViewController : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  weak public var delegate: (any TravelSafelyBoneshell.signalDataProtocol)?
+  public var authenticateWhenServiceAreaNotAvailable: Swift.Bool
+  @objc override dynamic public init()
+  public func switchTestOnDesk(setVal: Swift.Bool)
+  public func updateServiceAreaFromDemoSecond(_ notification: Foundation.NSDictionary)
+  public func updateServiceAreaFromFixedLocation(_ notification: Foundation.NSDictionary)
+  public func testOnDeskSwitch()
+  public func updateLocationandCallOthers()
+  @objc public func determineUserModeAutomatically()
+  public func setLocalData(type: Swift.String)
+  public func showActionSheetToGetDeviceID()
+  public func reloadFloatingButtons()
+  public func setVehicleModeText(vehicleModeLbl: Swift.String)
+  public func stopSocketConnection()
+  public func setBottomBarButtonIcon(vehicleMode: Swift.String)
+  public func doOncePerSecond()
+  public func checkActiveSpat()
+  public func phases_onSelect()
+  @objc public func setTraficSignalsRepete()
+  public func setTrafficSignals()
+  public func travelSafelyVisibility(setVisibility: Swift.Bool)
+  public func checkPreemption()
+  @objc public func listenToServer(readData: Foundation.Data, fromUblox: Swift.Bool)
+  public func checkSpatBuffer()
+  public func niceName()
+  public func updateServiceAreaValue()
+  @objc public func invalidTimerDuringLogout()
+  public func motTapped()
+  public func cycTapped()
+  public func pedTapped()
+  public func clearSpatArray()
+  public func clearDeviceSpatArray()
+  public func setSpecificBeaconType(values: Swift.String...)
+  public func deviceFinderWithTSLib(deviceID: Swift.UInt32)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class StartViewHelper : ObjectiveC.NSObject {
@@ -117,7 +117,7 @@ public protocol dataReadProtocol : AnyObject {
   public class func createBasicAlert(title: Swift.String?, message: Swift.String?, action: ((UIKit.UIAlertAction) -> Swift.Void)? = nil) -> UIKit.UIAlertController
   public class func showAlert(sender: UIKit.UIViewController, title: Swift.String, message: Swift.String)
   public func loginApiExternal(username: Swift.String, password: Swift.String, isServiceAreaCalled: Swift.Bool, viewController: UIKit.UIViewController, isSwitchToDev: Swift.Bool)
-  public func loginApi(viewController: UIKit.UIViewController, loderdisplay: Swift.Bool, isFromLoginScreen: Swift.Bool, isServiceAreaCalled: Swift.Bool, isDebugApiCalled: Swift.Bool)
+  public func loginApi(loderdisplay: Swift.Bool, isFromLoginScreen: Swift.Bool, isServiceAreaCalled: Swift.Bool, isDebugApiCalled: Swift.Bool)
   @objc override dynamic public init()
   @objc deinit
 }
