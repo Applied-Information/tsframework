@@ -57,6 +57,7 @@ public protocol signalDataProtocol : AnyObject {
   public func switchTestOnDesk(setVal: Swift.Bool)
   public func updateServiceAreaFromDemoSecond(_ notification: Foundation.NSDictionary)
   public func updateServiceAreaFromFixedLocation(_ notification: Foundation.NSDictionary)
+  public func updateStaticlocationArray(_ notification: Foundation.NSDictionary)
   public func testOnDeskSwitch()
   public func updateLocationandCallOthers()
   @objc public func determineUserModeAutomatically()
