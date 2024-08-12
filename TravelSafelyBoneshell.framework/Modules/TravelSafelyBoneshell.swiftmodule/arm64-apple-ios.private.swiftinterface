@@ -137,6 +137,7 @@ public protocol dataReadProtocol : AnyObject {
   public class func calculateMissDistance(devicedataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, motoristHeading: Swift.Float, startVC: TravelSafelyBoneshell.StartViewController) -> Swift.Float
   public class func getPassengerType(passengerType: Swift.Int8) -> Swift.String
   public class func setSettingControll(settingName: Swift.String, setValue: Swift.Bool)
+  public class func setWWDSettingControll(settingName: Swift.String, setValue: Swift.Double)
   public class func getAllUserDefaultDetails()
   public class func setSettingsDefaultValAfterTSLibrary()
   @objc override dynamic public init()
@@ -154,7 +155,6 @@ public protocol dataReadProtocol : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers public class GPSWrapper : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc override dynamic public init()
-  public func createTestingObject()
   public func start()
   public func getLocationFromHostApp(lat: Swift.Float, lng: Swift.Float)
   public func modeUpdateLocation()
