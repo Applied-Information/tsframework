@@ -86,6 +86,7 @@ public protocol signalDataProtocol : AnyObject {
   public func clearDeviceSpatArray()
   public func setSpecificBeaconType(values: Swift.String...)
   public func deviceFinderWithTSLib(deviceID: Swift.UInt32)
+  public func disconnectFromSDk()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class StartViewHelper : ObjectiveC.NSObject {
