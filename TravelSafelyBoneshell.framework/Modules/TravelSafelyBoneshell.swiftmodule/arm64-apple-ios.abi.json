@@ -103625,7 +103625,7 @@
       "kind": "StringLiteral",
       "offset": 12837,
       "length": 50,
-      "value": "\"Warning Wrong Way Driver on freeway, Use Caution\""
+      "value": "\"Warning Wrong Way Driver on Roadway, Use Caution\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
