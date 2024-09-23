@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TravelSafelyBoneshell",
+    "printedName": "TravelSafelyBoneshell",
     "children": [
       {
         "kind": "Import",
@@ -86,6 +86,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -423,6 +439,20 @@
         ],
         "isEnumExhaustive": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -2180,6 +2210,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2270,8 +2314,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "isLet": true,
@@ -2322,6 +2367,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2344,6 +2390,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -2387,6 +2434,7 @@
             "objc_name": "locationManager:didUpdateLocations:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -2408,6 +2456,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -2455,6 +2504,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -2477,6 +2527,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -2531,6 +2582,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2572,6 +2624,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -2584,6 +2637,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -2595,6 +2649,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2714,6 +2782,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4525,10 +4609,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -4642,6 +4747,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -5196,6 +5317,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6186,6 +6321,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -6371,6 +6520,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7063,10 +7228,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -7302,10 +7488,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -7573,6 +7780,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -7718,6 +7939,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7782,6 +8019,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -28442,6 +28695,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -28482,6 +28749,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -31912,6 +32186,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -32064,7 +32352,23 @@
         "usr": "s:21TravelSafelyBoneshell8GeoUtilsC",
         "mangledName": "$s21TravelSafelyBoneshell8GeoUtilsC",
         "moduleName": "TravelSafelyBoneshell",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -32383,6 +32687,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -32423,6 +32741,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -32450,8 +32775,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "hasStorage": true,
@@ -32541,8 +32867,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "RawDocComment"
             ],
             "fixedbinaryorder": 1,
@@ -32600,8 +32927,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "RawDocComment"
             ],
             "fixedbinaryorder": 2,
@@ -32708,8 +33036,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "fixedbinaryorder": 3,
             "hasStorage": true,
@@ -32801,6 +33130,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -32824,6 +33154,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC"
             ],
@@ -32850,6 +33181,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -32879,6 +33211,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -32908,6 +33241,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -32937,6 +33271,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -32965,6 +33300,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -32993,6 +33329,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33021,6 +33358,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33049,6 +33387,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33077,6 +33416,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33098,6 +33438,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -33126,6 +33467,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -33160,6 +33502,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -33182,6 +33525,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33203,6 +33547,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33230,6 +33575,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -33262,8 +33608,9 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 4,
@@ -33287,6 +33634,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "accessors": [
@@ -33394,6 +33742,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33429,6 +33778,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33476,6 +33826,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -33530,6 +33881,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -33571,6 +33923,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -33583,6 +33936,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -33594,6 +33948,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -33823,6 +34191,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -33930,6 +34312,22 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -35358,6 +35756,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -35602,7 +36014,23 @@
         "usr": "s:21TravelSafelyBoneshell11MasterQueueC",
         "mangledName": "$s21TravelSafelyBoneshell11MasterQueueC",
         "moduleName": "TravelSafelyBoneshell",
-        "isOpen": true
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -35669,6 +36097,22 @@
         "isOpen": true,
         "declAttributes": [
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -36210,6 +36654,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -36805,6 +37263,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -36823,6 +37295,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -37337,6 +37816,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -37814,6 +38307,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -38538,6 +39045,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -38623,6 +39144,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -38646,6 +39168,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -38674,6 +39197,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -38730,6 +39254,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -38771,6 +39296,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -38783,6 +39309,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -38794,6 +39321,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -38943,6 +39484,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -39431,7 +39986,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -40036,7 +40607,23 @@
           "AccessControl",
           "RawDocComment"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -41034,6 +41621,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -41125,8 +41726,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "RawDocComment",
               "ObjC"
@@ -41249,8 +41851,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -41372,8 +41975,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -41495,8 +42099,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -41612,6 +42217,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -41635,6 +42241,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -41663,6 +42270,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "IBAction",
               "RawDocComment",
@@ -41691,6 +42299,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -41746,6 +42355,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -41787,6 +42397,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -41799,6 +42410,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -41810,6 +42422,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -42704,10 +43330,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -43720,6 +44367,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -44331,10 +44992,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -44966,6 +45648,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -45287,6 +45983,20 @@
         "mangledName": "$s21TravelSafelyBoneshell9DirStructV",
         "moduleName": "TravelSafelyBoneshell",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -46109,6 +46819,20 @@
         "mangledName": "$s21TravelSafelyBoneshell21MapWalkStopAreaStructV",
         "moduleName": "TravelSafelyBoneshell",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -51768,6 +52492,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -51858,8 +52596,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -51957,8 +52696,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52056,8 +52796,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52155,8 +52896,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52254,8 +52996,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52353,8 +53096,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52462,6 +53206,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -52518,6 +53263,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "accessors": [
@@ -52559,6 +53305,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -52580,6 +53327,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -52601,6 +53349,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -52626,6 +53375,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -52659,6 +53409,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -52700,6 +53451,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -52712,6 +53464,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "IBDesignable",
           "ObjC"
@@ -52726,6 +53479,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -52822,8 +53589,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -52921,8 +53689,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53020,8 +53789,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53119,8 +53889,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53218,8 +53989,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53317,8 +54089,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53426,6 +54199,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -53482,6 +54256,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "accessors": [
@@ -53523,6 +54298,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -53545,6 +54321,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -53566,6 +54343,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -53591,6 +54369,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -53632,6 +54411,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -53688,6 +54468,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "Available"
@@ -53722,6 +54503,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -53763,6 +54545,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -53775,6 +54558,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "IBDesignable",
           "ObjC"
@@ -53788,6 +54572,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -53884,8 +54682,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -53983,8 +54782,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -54082,8 +54882,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -54181,8 +54982,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -54280,8 +55082,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -54379,8 +55182,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBInspectable",
               "ObjC"
             ],
@@ -54488,6 +55292,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -54544,6 +55349,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "accessors": [
@@ -54585,6 +55391,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -54606,6 +55413,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -54627,6 +55435,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -54652,6 +55461,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -54685,6 +55495,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -54726,6 +55537,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -54738,6 +55550,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "IBDesignable",
           "ObjC"
@@ -54750,6 +55563,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -54992,8 +55819,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "RawDocComment"
             ],
             "fixedbinaryorder": 0,
@@ -55108,8 +55936,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55231,8 +56060,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55354,8 +56184,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55477,8 +56308,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55600,8 +56432,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55723,8 +56556,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "IBOutlet",
               "ObjC"
             ],
@@ -55840,6 +56674,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "RawDocComment"
@@ -55868,6 +56703,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -55926,6 +56762,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -55958,6 +56795,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -55984,6 +56822,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -56006,6 +56845,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC",
               "RawDocComment"
@@ -56029,6 +56869,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC",
               "RawDocComment"
@@ -56059,6 +56900,7 @@
             "isOpen": true,
             "objc_name": "setLabelTextWithNotification:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC",
               "RawDocComment"
@@ -56082,6 +56924,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "ObjC",
               "RawDocComment"
@@ -56109,6 +56952,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -56164,6 +57008,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -56205,6 +57050,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -56217,6 +57063,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "ObjC"
         ],
@@ -56229,6 +57076,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -56603,6 +57464,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
@@ -56932,6 +57807,20 @@
               "AccessControl"
             ],
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -58099,6 +58988,22 @@
         "isOpen": true,
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -58355,6 +59260,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -58395,6 +59314,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -58523,10 +59449,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -58879,6 +59826,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -59190,6 +60151,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -59388,6 +60363,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -59594,6 +60583,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -59634,6 +60637,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -59663,6 +60673,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -60094,6 +61120,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -60329,6 +61369,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -61205,6 +62259,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -61245,6 +62313,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -61274,6 +62349,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -61551,6 +62642,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -62159,6 +63264,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -62682,6 +63803,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -62813,6 +63950,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -63042,6 +64195,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -63310,6 +64479,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -63578,6 +64763,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -66310,6 +67511,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -68056,6 +69273,22 @@
         "moduleName": "TravelSafelyBoneshell",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -68924,10 +70157,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -69649,10 +70903,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -69835,10 +71110,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -69972,10 +71268,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -70158,10 +71475,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -70246,10 +71584,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -71807,10 +73166,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -71944,10 +73324,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -72180,10 +73581,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -73996,6 +75418,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -74337,10 +75773,31 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -74385,8 +75842,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -74483,8 +75941,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -74589,8 +76048,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -74687,8 +76147,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -74793,8 +76254,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -74850,8 +76312,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -74956,8 +76419,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75046,8 +76510,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75136,8 +76601,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75226,8 +76692,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -75317,8 +76784,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75407,8 +76875,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75497,8 +76966,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -75589,6 +77059,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl",
@@ -75613,6 +77084,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "RawDocComment"
             ],
@@ -75635,6 +77107,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "funcSelfKind": "NonMutating"
@@ -75656,6 +77129,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -75678,6 +77152,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -75733,6 +77208,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -75774,6 +77250,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -75786,6 +77263,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment",
@@ -75799,6 +77277,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -75854,13 +77346,6 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -77505,6 +78990,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -80286,6 +81787,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -80369,8 +81884,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -80467,8 +81983,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -80573,8 +82090,9 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -80622,8 +82140,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -80712,8 +82231,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -80802,8 +82322,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "Custom"
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -80894,6 +82415,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -80921,6 +82443,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -80970,6 +82493,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -80993,6 +82517,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -81015,6 +82540,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -81037,6 +82563,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -81093,6 +82620,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -81134,6 +82662,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -81146,6 +82675,7 @@
         "moduleName": "TravelSafelyBoneshell",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -81158,6 +82688,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -89906,6 +91450,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -90173,6 +91731,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -90220,6 +91792,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
               }
             ]
           },
@@ -94515,6 +96094,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -94806,6 +96399,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -96838,6 +98447,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -97477,6 +99100,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -97555,6 +99192,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97584,6 +99222,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97613,6 +99252,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97642,6 +99282,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97671,6 +99312,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97700,6 +99342,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97729,6 +99372,7 @@
             "static": true,
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -97742,6 +99386,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIImageView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -97757,6 +99402,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -97945,6 +99604,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -98109,6 +99782,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -98137,6 +99811,7 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -98150,6 +99825,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UITextField",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -98166,6 +99842,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -98262,6 +99952,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "ObjC"
@@ -98342,6 +100033,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "ObjC"
@@ -98430,6 +100122,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "ObjC"
@@ -98526,6 +100219,7 @@
             "isOpen": true,
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "IBInspectable",
               "ObjC"
@@ -98595,6 +100289,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -98609,6 +100304,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -98750,6 +100459,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -99356,6 +101079,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "OptionSet",
             "printedName": "OptionSet",
             "children": [
@@ -99748,13 +101485,6 @@
       "offset": 946,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/TravelSafelyThread.swift",
-      "kind": "StringLiteral",
-      "offset": 401,
-      "length": 18,
-      "value": "\"TravelSafelyBoneshell.TravelSafelyThread\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
@@ -100773,66 +102503,549 @@
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 171519,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 171582,
+      "length": 10,
+      "value": "\"gpsSpeed\""
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 171683,
+      "length": 3,
+      "value": "3.6"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 171769,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172913,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172934,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172991,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173362,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173453,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173544,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173548,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173633,
+      "length": 6,
+      "value": "0x0001"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173806,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173811,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173856,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173897,
+      "length": 6,
+      "value": "0x0001"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174226,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174415,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174480,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174523,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174528,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174761,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174767,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 174894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 175243,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 175775,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175858,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175915,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 175991,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176143,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 176362,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176896,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177036,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177182,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 177410,
+      "length": 53,
+      "value": "\"array out of bounds exception, checkGreenLightAlert\""
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 177470,
+      "length": 4,
+      "value": "1010"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216854,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 216883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216966,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216993,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217019,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217042,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 217077,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217459,
+      "length": 4,
+      "value": "0x7E"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217507,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217794,
+      "length": 4,
+      "value": "0x7E"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217893,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 218012,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218104,
+      "length": 4,
+      "value": "0x7D"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218378,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218424,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218631,
+      "length": 4,
+      "value": "0x5E"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218698,
+      "length": 4,
+      "value": "0x5D"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218758,
+      "length": 4,
+      "value": "0x20"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218892,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219134,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219272,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219548,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 219635,
+      "length": 9,
+      "value": "\"No data\""
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 219968,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 220225,
+      "length": 15,
+      "value": "\"Routing agent\""
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 220342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
       "offset": 267989,
       "length": 2305,
       "value": "[0x0000, 0x1189, 0x2312, 0x329b, 0x4624, 0x57ad, 0x6536, 0x74bf, 0x8c48, 0x9dc1, 0xaf5a, 0xbed3, 0xca6c, 0xdbe5, 0xe97e, 0xf8f7, 0x1081, 0x0108, 0x3393, 0x221a, 0x56a5, 0x472c, 0x75b7, 0x643e, 0x9cc9, 0x8d40, 0xbfdb, 0xae52, 0xdaed, 0xcb64, 0xf9ff, 0xe876, 0x2102, 0x308b, 0x0210, 0x1399, 0x6726, 0x76af, 0x4434, 0x55bd, 0xad4a, 0xbcc3, 0x8e58, 0x9fd1, 0xeb6e, 0xfae7, 0xc87c, 0xd9f5, 0x3183, 0x200a, 0x1291, 0x0318, 0x77a7, 0x662e, 0x54b5, 0x453c, 0xbdcb, 0xac42, 0x9ed9, 0x8f50, 0xfbef, 0xea66, 0xd8fd, 0xc974, 0x4204, 0x538d, 0x6116, 0x709f, 0x0420, 0x15a9, 0x2732, 0x36bb, 0xce4c, 0xdfc5, 0xed5e, 0xfcd7, 0x8868, 0x99e1, 0xab7a, 0xbaf3, 0x5285, 0x430c, 0x7197, 0x601e, 0x14a1, 0x0528, 0x37b3, 0x263a, 0xdecd, 0xcf44, 0xfddf, 0xec56, 0x98e9, 0x8960, 0xbbfb, 0xaa72, 0x6306, 0x728f, 0x4014, 0x519d, 0x2522, 0x34ab, 0x0630, 0x17b9, 0xef4e, 0xfec7, 0xcc5c, 0xddd5, 0xa96a, 0xb8e3, 0x8a78, 0x9bf1, 0x7387, 0x620e, 0x5095, 0x411c, 0x35a3, 0x242a, 0x16b1, 0x0738, 0xffcf, 0xee46, 0xdcdd, 0xcd54, 0xb9eb, 0xa862, 0x9af9, 0x8b70, 0x8408, 0x9581, 0xa71a, 0xb693, 0xc22c, 0xd3a5, 0xe13e, 0xf0b7, 0x0840, 0x19c9, 0x2b52, 0x3adb, 0x4e64, 0x5fed, 0x6d76, 0x7cff, 0x9489, 0x8500, 0xb79b, 0xa612, 0xd2ad, 0xc324, 0xf1bf, 0xe036, 0x18c1, 0x0948, 0x3bd3, 0x2a5a, 0x5ee5, 0x4f6c, 0x7df7, 0x6c7e, 0xa50a, 0xb483, 0x8618, 0x9791, 0xe32e, 0xf2a7, 0xc03c, 0xd1b5, 0x2942, 0x38cb, 0x0a50, 0x1bd9, 0x6f66, 0x7eef, 0x4c74, 0x5dfd, 0xb58b, 0xa402, 0x9699, 0x8710, 0xf3af, 0xe226, 0xd0bd, 0xc134, 0x39c3, 0x284a, 0x1ad1, 0x0b58, 0x7fe7, 0x6e6e, 0x5cf5, 0x4d7c, 0xc60c, 0xd785, 0xe51e, 0xf497, 0x8028, 0x91a1, 0xa33a, 0xb2b3, 0x4a44, 0x5bcd, 0x6956, 0x78df, 0x0c60, 0x1de9, 0x2f72, 0x3efb, 0xd68d, 0xc704, 0xf59f, 0xe416, 0x90a9, 0x8120, 0xb3bb, 0xa232, 0x5ac5, 0x4b4c, 0x79d7, 0x685e, 0x1ce1, 0x0d68, 0x3ff3, 0x2e7a, 0xe70e, 0xf687, 0xc41c, 0xd595, 0xa12a, 0xb0a3, 0x8238, 0x93b1, 0x6b46, 0x7acf, 0x4854, 0x59dd, 0x2d62, 0x3ceb, 0x0e70, 0x1ff9, 0xf78f, 0xe606, 0xd49d, 0xc514, 0xb1ab, 0xa022, 0x92b9, 0x8330, 0x7bc7, 0x6a4e, 0x58d5, 0x495c, 0x3de3, 0x2c6a, 0x1ef1, 0x0f78]"
     },
     {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 329,
-      "length": 5,
+      "offset": 333372,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333395,
+      "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 362,
-      "length": 14,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 386,
-      "length": 15,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 329,
-      "length": 5,
+      "offset": 333472,
+      "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
-      "length": 8,
+      "offset": 333622,
+      "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 362,
-      "length": 14,
-      "value": "3"
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 333649,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 386,
-      "length": 15,
-      "value": "4"
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 333717,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/BaseViewController.swift",
@@ -101528,6 +103741,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/NotificationViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1483,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Networking\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1741,
@@ -101586,146 +103806,6 @@
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 197,
-      "length": 13,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 224,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 11,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 197,
-      "length": 13,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 224,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 11,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 419,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 455,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 522,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 3,
-      "value": "240"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 3,
-      "value": "241"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 616,
-      "length": 3,
-      "value": "242"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 419,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 455,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 497,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 522,
-      "length": 2,
-      "value": "19"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 554,
-      "length": 3,
-      "value": "240"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 3,
-      "value": "241"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 616,
-      "length": 3,
-      "value": "242"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
       "offset": 419,
       "length": 2,
       "value": "20"
@@ -101810,76 +103890,6 @@
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
-      "length": 2,
-      "value": "39"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 761,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 792,
-      "length": 3,
-      "value": "261"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 829,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 866,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 720,
-      "length": 2,
-      "value": "39"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 761,
-      "length": 2,
-      "value": "27"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 792,
-      "length": 3,
-      "value": "261"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 829,
-      "length": 2,
-      "value": "40"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 866,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
       "offset": 919,
       "length": 1,
       "value": "1"
@@ -101890,62 +103900,6 @@
       "offset": 939,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 919,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 939,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 919,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 939,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1018,
-      "length": 5,
-      "value": "40008"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1051,
-      "length": 5,
-      "value": "40009"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1018,
-      "length": 5,
-      "value": "40008"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1051,
-      "length": 5,
-      "value": "40009"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
@@ -102016,139 +103970,6 @@
       "offset": 1357,
       "length": 8,
       "value": "8"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1176,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1211,
-      "length": 18,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1239,
-      "length": 16,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1265,
-      "length": 16,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1319,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1357,
-      "length": 8,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1156,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1176,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1211,
-      "length": 18,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1239,
-      "length": 16,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1265,
-      "length": 16,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1319,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1357,
-      "length": 8,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1494,
-      "length": 12,
-      "value": "\"BACKGROUND\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1529,
-      "length": 12,
-      "value": "\"FOREGROUND\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 12,
-      "value": "\"TERMINATED\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
@@ -102303,195 +104124,6 @@
       "offset": 2731,
       "length": 26,
       "value": "\"stringConstructionWorker\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1670,
-      "length": 18,
-      "value": "\"stringPedestrian\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1718,
-      "length": 15,
-      "value": "\"stringCyclist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1764,
-      "length": 16,
-      "value": "\"stringMotorist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1810,
-      "length": 15,
-      "value": "\"stringUnknown\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1857,
-      "length": 17,
-      "value": "\"stringNotMoving\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1913,
-      "length": 24,
-      "value": "\"stringEmergencyVehicle\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1979,
-      "length": 27,
-      "value": "\"stringNotMovingPedestrian\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2045,
-      "length": 24,
-      "value": "\"stringNotMovingCyclist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2109,
-      "length": 25,
-      "value": "\"stringNotMovingMotorist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2173,
-      "length": 24,
-      "value": "\"stringManualPedestrian\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2233,
-      "length": 21,
-      "value": "\"stringManualCyclist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2291,
-      "length": 22,
-      "value": "\"stringManualMotorist\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2345,
-      "length": 17,
-      "value": "\"stringSchoolBus\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2403,
-      "length": 26,
-      "value": "\"stringCityBusApproaching\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2467,
-      "length": 28,
-      "value": "\"stringSchoolBusStoppedAudi\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2542,
-      "length": 21,
-      "value": "\"stringSchoolBusAudi\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2609,
-      "length": 24,
-      "value": "\"stringVisuallyImpaired\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2669,
-      "length": 21,
-      "value": "\"stringCrossingGuard\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 2731,
-      "length": 26,
-      "value": "\"stringConstructionWorker\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2957,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2972,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2991,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3010,
-      "length": 10,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2957,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2972,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2991,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3010,
-      "length": 10,
-      "value": "4"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
@@ -104648,20 +106280,6 @@
       "offset": 4775,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Model\/SPATData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Model\/SPATData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 3,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Model\/SPATData.swift",
