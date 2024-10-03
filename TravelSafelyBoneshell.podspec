@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.48'
-    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. New changes for WWD alerts fixed alert delay issue and code optimize and fixed crash. Added Xcode 16.0 support.'
+    s.version           = '1.0.49'
+    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Included Dark Signals for intersections. Added Xcode 16.0 support.'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
     s.author            = { 'Name' => 'parvenk@appinfoinc.com' }
