@@ -80,6 +80,7 @@ public protocol signalDataProtocol : AnyObject {
   public func niceName()
   public func updateServiceAreaValue()
   @objc public func invalidTimerDuringLogout()
+  public func setuserConfig(value: Swift.Int)
   public func motTapped()
   public func cycTapped()
   public func pedTapped()
