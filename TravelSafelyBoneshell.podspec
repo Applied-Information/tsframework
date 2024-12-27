@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.56'
+    s.version           = '1.0.57'
     s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia dark/flash intersection changes add inhabit 7 sec.'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
