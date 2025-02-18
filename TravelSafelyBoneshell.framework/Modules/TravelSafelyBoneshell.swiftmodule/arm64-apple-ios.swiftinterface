@@ -76,6 +76,7 @@ public protocol signalDataProtocol : AnyObject {
   public func travelSafelyVisibility(setVisibility: Swift.Bool)
   public func checkPreemption()
   @objc public func listenToServer(readData: Foundation.Data, fromUblox: Swift.Bool)
+  public func checkBottomBarSelectedIndex(BeaconSpeedLimit: Swift.Int, UnitType: Swift.String)
   public func checkSpatBuffer()
   public func niceName()
   public func updateServiceAreaValue()

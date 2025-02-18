@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.57'
-    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia dark/flash intersection changes add inhabit 7 sec.'
+    s.version           = '1.0.58'
+    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Implemented new changes of Uturn and others.'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
     s.author            = { 'Name' => 'parvenk@appinfoinc.com' }
