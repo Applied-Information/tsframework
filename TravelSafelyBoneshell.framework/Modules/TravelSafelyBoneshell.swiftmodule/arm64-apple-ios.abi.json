@@ -18916,6 +18916,95 @@
           },
           {
             "kind": "Var",
+            "name": "wwdLaneCounterBit1",
+            "printedName": "wwdLaneCounterBit1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1Sivs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1SivM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit1SivM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "deviceAlarmActive",
             "printedName": "deviceAlarmActive",
             "children": [
@@ -27821,6 +27910,95 @@
           },
           {
             "kind": "Var",
+            "name": "laneIndexBit1",
+            "printedName": "laneIndexBit1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1Sivs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1SivM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC13laneIndexBit1SivM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "storedWWDDeviceID",
             "printedName": "storedWWDDeviceID",
             "children": [
@@ -27901,6 +28079,95 @@
                 "declKind": "Accessor",
                 "usr": "s:21TravelSafelyBoneshell19StartViewControllerC17storedWWDDeviceIDs6UInt32VvM",
                 "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC17storedWWDDeviceIDs6UInt32VvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storedWWDDeviceIDBit1",
+            "printedName": "storedWWDDeviceIDBit1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32Vvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32VvM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21storedWWDDeviceIDBit1s6UInt32VvM",
                 "moduleName": "TravelSafelyBoneshell",
                 "implicit": true,
                 "isOpen": true,
@@ -32775,6 +33042,60 @@
             "declKind": "Func",
             "usr": "s:21TravelSafelyBoneshell19StartViewControllerC40findValidBeaconLaneforWrongDirectionUser6points5index5speed8deviceId10devicedata9beaconLocySi_SiSfs6UInt32VAA10DeviceDataCSo10CLLocationCtF",
             "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC40findValidBeaconLaneforWrongDirectionUser6points5index5speed8deviceId10devicedata9beaconLocySi_SiSfs6UInt32VAA10DeviceDataCSo10CLLocationCtF",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "findValidBeaconLaneforWrongDirectionUserBit1",
+            "printedName": "findValidBeaconLaneforWrongDirectionUserBit1(points:index:speed:deviceId:devicedata:beaconLoc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceData",
+                "printedName": "TravelSafelyBoneshell.DeviceData",
+                "usr": "c:@M@TravelSafelyBoneshell@objc(cs)DeviceData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocation",
+                "printedName": "CoreLocation.CLLocation",
+                "usr": "c:objc(cs)CLLocation"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC44findValidBeaconLaneforWrongDirectionUserBit16points5index5speed8deviceId10devicedata9beaconLocySi_SiSfs6UInt32VAA10DeviceDataCSo10CLLocationCtF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC44findValidBeaconLaneforWrongDirectionUserBit16points5index5speed8deviceId10devicedata9beaconLocySi_SiSfs6UInt32VAA10DeviceDataCSo10CLLocationCtF",
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "funcSelfKind": "NonMutating"
@@ -43412,6 +43733,39 @@
             "declKind": "Func",
             "usr": "s:21TravelSafelyBoneshell10GPSWrapperC19locationsFortestingyyF",
             "mangledName": "$s21TravelSafelyBoneshell10GPSWrapperC19locationsFortestingyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLocationInSDK",
+            "printedName": "updateLocationInSDK(lat:lng:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell10GPSWrapperC19updateLocationInSDK3lat3lngySf_SftF",
+            "mangledName": "$s21TravelSafelyBoneshell10GPSWrapperC19updateLocationInSDK3lat3lngySf_SftF",
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "declAttributes": [
@@ -104342,416 +104696,416 @@
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6833,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6877,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6920,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6972,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7072,
+      "offset": 6829,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7168,
+      "offset": 6864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7204,
+      "offset": 6908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7304,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7405,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7507,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7542,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7577,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7926,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7970,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8015,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8054,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8093,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8132,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8162,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8196,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8231,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8265,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8300,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8340,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8380,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8423,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8466,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8510,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8550,
+      "offset": 6951,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9592,
+      "offset": 7003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7103,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7199,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7235,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7335,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7573,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7957,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8046,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8163,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8227,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8262,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8296,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8331,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8411,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9623,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9724,
+      "offset": 9755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9753,
+      "offset": 9784,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9782,
+      "offset": 9813,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9811,
+      "offset": 9842,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9840,
+      "offset": 9871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10126,
+      "offset": 10157,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10295,
+      "offset": 10326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10565,
+      "offset": 10596,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10625,
+      "offset": 10656,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10736,
+      "offset": 10767,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10814,
+      "offset": 10845,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10825,
+      "offset": 10856,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10853,
+      "offset": 10884,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 10926,
+      "offset": 10957,
       "length": 29,
       "value": "[2, 10, 42, 162, 34, 130, 138, 170]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 10990,
+      "offset": 11021,
       "length": 25,
       "value": "[8, 10, 40, 42, 136, 168, 170]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11050,
+      "offset": 11081,
       "length": 29,
       "value": "[32, 34, 40, 42, 138, 160, 168, 170]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11114,
+      "offset": 11145,
       "length": 29,
       "value": "[128, 130, 138, 136, 160, 168, 170]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11171,
+      "offset": 11202,
       "length": 57,
       "value": "[\"2\", \"2,4\", \"2,6\", \"2,8\", \"2,4,6\", \"2,4,8\", \"2,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11251,
+      "offset": 11282,
       "length": 57,
       "value": "[\"4\", \"2,4\", \"4,6\", \"4,8\", \"2,4,6\", \"4,6,8\", \"2,4,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11331,
+      "offset": 11362,
       "length": 57,
       "value": "[\"6\", \"2,6\", \"4,6\", \"6,8\", \"2,4,6\", \"4,6,8\", \"2,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11411,
+      "offset": 11442,
       "length": 57,
       "value": "[\"8\", \"2,8\", \"4,8\", \"6,8\", \"2,4,8\", \"2,6,8\", \"4,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11503,
+      "offset": 11534,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11666,
+      "offset": 11697,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11736,
+      "offset": 11767,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11768,
+      "offset": 11799,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11799,
+      "offset": 11830,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11907,
+      "offset": 11938,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11961,
+      "offset": 11992,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11990,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
@@ -104762,631 +105116,652 @@
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12061,
+      "offset": 12092,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12100,
+      "offset": 12131,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12137,
+      "offset": 12157,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12194,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12170,
+      "offset": 12234,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12208,
+      "offset": 12273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12311,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12521,
+      "offset": 12624,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12557,
+      "offset": 12660,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12588,
+      "offset": 12691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12696,
+      "offset": 12799,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 12819,
+      "offset": 12922,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12853,
+      "offset": 12956,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 13266,
+      "offset": 13369,
       "length": 934,
       "value": "[\"No Alert\", \"Red light\", \"Speeding in school zone\", \"Slow down - Curve ahead\", \"Speeding in slow speed zone\", \"Speeding in work zone\", \"Warning wrong way – Turn around\", \"Stop for pedestrian\", \"High speed vehicle\", \"Emergency vehicle\", \"Emergency vehicle left\", \"Emergency vehicle right\", \"Emergency vehicle front\", \"Emergency vehicle behind\", \"Cyclist\", \"Pedestrian\", \"Brake\", \"School Bus\", \"INTERSECTION IN DARK. TREAT AS 4-WAY STOP\", \"Intersection is in flash, proceed with caution\", \"High speed vehicle caution\", \"Cyclist Alert\", \"Pedestrian Alert\", \"Railroad ahead Alert\", \"Stop sign ahead Alert\", \"Watch for Pedestrian on Left\", \"Watch for Pedestrian on Right\", \"Warning Wrong Way Driver ahead, Use Caution\", \"Warning Wrong Way Driver on Roadway, Use Caution\", \"STOP PEDESTRIAN\", \"Pedestrian ahead\", \"Caution High Water Ahead\", \"Warning Flooding Ahead\", \"Caution Overheight Vehicle Ahead\", \"Caution Overheight - Turn Back\", \"AnonymousID force refreshed Alert\"]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 180651,
+      "offset": 181215,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 180714,
+      "offset": 181278,
       "length": 10,
       "value": "\"gpsSpeed\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 180815,
+      "offset": 181379,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 180901,
+      "offset": 181465,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 181928,
+      "offset": 182492,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182045,
+      "offset": 182609,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182066,
+      "offset": 182630,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182123,
+      "offset": 182687,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182494,
+      "offset": 183058,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182548,
+      "offset": 183112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182585,
+      "offset": 183149,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182624,
+      "offset": 183188,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182676,
+      "offset": 183240,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182680,
+      "offset": 183244,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182725,
+      "offset": 183289,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182765,
+      "offset": 183329,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182938,
+      "offset": 183502,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182943,
+      "offset": 183507,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 182988,
+      "offset": 183552,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183029,
+      "offset": 183593,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183358,
+      "offset": 183922,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183547,
+      "offset": 184111,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183612,
+      "offset": 184176,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183655,
+      "offset": 184219,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183660,
+      "offset": 184224,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183893,
+      "offset": 184457,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 183899,
+      "offset": 184463,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 184026,
+      "offset": 184590,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 184375,
+      "offset": 184939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 184907,
+      "offset": 185471,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 184990,
+      "offset": 185554,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 185047,
+      "offset": 185611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 185123,
+      "offset": 185687,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 185275,
+      "offset": 185839,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 185494,
+      "offset": 186058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 186028,
+      "offset": 186592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 186168,
+      "offset": 186732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 186314,
+      "offset": 186878,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 186542,
+      "offset": 187106,
       "length": 53,
       "value": "\"array out of bounds exception, checkGreenLightAlert\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 186602,
+      "offset": 187166,
       "length": 4,
       "value": "1010"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 225994,
+      "offset": 226558,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226023,
+      "offset": 226587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226054,
+      "offset": 226618,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226081,
+      "offset": 226645,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226106,
+      "offset": 226670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226133,
+      "offset": 226697,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226159,
+      "offset": 226723,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226182,
+      "offset": 226746,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 226217,
+      "offset": 226781,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226400,
+      "offset": 226964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226599,
+      "offset": 227163,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226647,
+      "offset": 227211,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 226934,
+      "offset": 227498,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227033,
+      "offset": 227597,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 227152,
+      "offset": 227716,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227244,
+      "offset": 227808,
       "length": 4,
       "value": "0x7D"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227518,
+      "offset": 228082,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227564,
+      "offset": 228128,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227771,
+      "offset": 228335,
       "length": 4,
       "value": "0x5E"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227838,
+      "offset": 228402,
       "length": 4,
       "value": "0x5D"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 227898,
+      "offset": 228462,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228032,
+      "offset": 228596,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228274,
+      "offset": 228838,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228412,
+      "offset": 228976,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 228603,
+      "offset": 229167,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228688,
+      "offset": 229252,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 228775,
+      "offset": 229339,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 228897,
+      "offset": 229461,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 229108,
+      "offset": 229672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 229365,
+      "offset": 229929,
       "length": 15,
       "value": "\"Routing agent\""
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 229482,
+      "offset": 230046,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 277780,
+      "offset": 278344,
       "length": 2305,
       "value": "[0x0000, 0x1189, 0x2312, 0x329b, 0x4624, 0x57ad, 0x6536, 0x74bf, 0x8c48, 0x9dc1, 0xaf5a, 0xbed3, 0xca6c, 0xdbe5, 0xe97e, 0xf8f7, 0x1081, 0x0108, 0x3393, 0x221a, 0x56a5, 0x472c, 0x75b7, 0x643e, 0x9cc9, 0x8d40, 0xbfdb, 0xae52, 0xdaed, 0xcb64, 0xf9ff, 0xe876, 0x2102, 0x308b, 0x0210, 0x1399, 0x6726, 0x76af, 0x4434, 0x55bd, 0xad4a, 0xbcc3, 0x8e58, 0x9fd1, 0xeb6e, 0xfae7, 0xc87c, 0xd9f5, 0x3183, 0x200a, 0x1291, 0x0318, 0x77a7, 0x662e, 0x54b5, 0x453c, 0xbdcb, 0xac42, 0x9ed9, 0x8f50, 0xfbef, 0xea66, 0xd8fd, 0xc974, 0x4204, 0x538d, 0x6116, 0x709f, 0x0420, 0x15a9, 0x2732, 0x36bb, 0xce4c, 0xdfc5, 0xed5e, 0xfcd7, 0x8868, 0x99e1, 0xab7a, 0xbaf3, 0x5285, 0x430c, 0x7197, 0x601e, 0x14a1, 0x0528, 0x37b3, 0x263a, 0xdecd, 0xcf44, 0xfddf, 0xec56, 0x98e9, 0x8960, 0xbbfb, 0xaa72, 0x6306, 0x728f, 0x4014, 0x519d, 0x2522, 0x34ab, 0x0630, 0x17b9, 0xef4e, 0xfec7, 0xcc5c, 0xddd5, 0xa96a, 0xb8e3, 0x8a78, 0x9bf1, 0x7387, 0x620e, 0x5095, 0x411c, 0x35a3, 0x242a, 0x16b1, 0x0738, 0xffcf, 0xee46, 0xdcdd, 0xcd54, 0xb9eb, 0xa862, 0x9af9, 0x8b70, 0x8408, 0x9581, 0xa71a, 0xb693, 0xc22c, 0xd3a5, 0xe13e, 0xf0b7, 0x0840, 0x19c9, 0x2b52, 0x3adb, 0x4e64, 0x5fed, 0x6d76, 0x7cff, 0x9489, 0x8500, 0xb79b, 0xa612, 0xd2ad, 0xc324, 0xf1bf, 0xe036, 0x18c1, 0x0948, 0x3bd3, 0x2a5a, 0x5ee5, 0x4f6c, 0x7df7, 0x6c7e, 0xa50a, 0xb483, 0x8618, 0x9791, 0xe32e, 0xf2a7, 0xc03c, 0xd1b5, 0x2942, 0x38cb, 0x0a50, 0x1bd9, 0x6f66, 0x7eef, 0x4c74, 0x5dfd, 0xb58b, 0xa402, 0x9699, 0x8710, 0xf3af, 0xe226, 0xd0bd, 0xc134, 0x39c3, 0x284a, 0x1ad1, 0x0b58, 0x7fe7, 0x6e6e, 0x5cf5, 0x4d7c, 0xc60c, 0xd785, 0xe51e, 0xf497, 0x8028, 0x91a1, 0xa33a, 0xb2b3, 0x4a44, 0x5bcd, 0x6956, 0x78df, 0x0c60, 0x1de9, 0x2f72, 0x3efb, 0xd68d, 0xc704, 0xf59f, 0xe416, 0x90a9, 0x8120, 0xb3bb, 0xa232, 0x5ac5, 0x4b4c, 0x79d7, 0x685e, 0x1ce1, 0x0d68, 0x3ff3, 0x2e7a, 0xe70e, 0xf687, 0xc41c, 0xd595, 0xa12a, 0xb0a3, 0x8238, 0x93b1, 0x6b46, 0x7acf, 0x4854, 0x59dd, 0x2d62, 0x3ceb, 0x0e70, 0x1ff9, 0xf78f, 0xe606, 0xd49d, 0xc514, 0xb1ab, 0xa022, 0x92b9, 0x8330, 0x7bc7, 0x6a4e, 0x58d5, 0x495c, 0x3de3, 0x2c6a, 0x1ef1, 0x0f78]"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 358606,
+      "offset": 371736,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 358629,
+      "offset": 371759,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 358706,
+      "offset": 371836,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 358856,
+      "offset": 371986,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 358883,
+      "offset": 372013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/parveensmacmini\/Downloads\/parveen-Projects\/NTTA\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 358951,
+      "offset": 372081,
       "length": 5,
       "value": "false"
     },

@@ -170,6 +170,7 @@ public protocol dataReadProtocol : AnyObject {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateHeading newHeading: CoreLocation.CLHeading)
   public func locationsFortesting()
+  public func updateLocationInSDK(lat: Swift.Float, lng: Swift.Float)
   @objc deinit
 }
 public enum ReachabilityError : Swift.Error {
