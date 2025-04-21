@@ -359,6 +359,7 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell6BaseVC")
 SWIFT_CLASS("_TtC21TravelSafelyBoneshell10GPSWrapper")
 @interface GPSWrapper : NSObject <CLLocationManagerDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateHeading:(CLHeading * _Nonnull)newHeading;
@@ -379,8 +380,6 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell12MySocketFile")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (void)socket:(GCDAsyncSocket * _Nonnull)socket didConnectToHost:(NSString * _Nonnull)host port:(uint16_t)p;
 - (void)socketDidDisconnect:(GCDAsyncSocket * _Nonnull)socket withError:(NSError * _Nullable)err;
-- (void)socket:(GCDAsyncSocket * _Nonnull)sock didReadPartialDataOfLength:(NSUInteger)partialLength tag:(NSInteger)tag;
-- (void)socket:(GCDAsyncSocket * _Nonnull)sock didWriteDataWithTag:(NSInteger)tag;
 - (void)socket:(GCDAsyncSocket * _Nonnull)_sock didReadData:(NSData * _Nonnull)data withTag:(NSInteger)tag;
 - (void)socket:(GCDAsyncSocket * _Nonnull)sock didAcceptNewSocket:(GCDAsyncSocket * _Nonnull)newSocket;
 @end

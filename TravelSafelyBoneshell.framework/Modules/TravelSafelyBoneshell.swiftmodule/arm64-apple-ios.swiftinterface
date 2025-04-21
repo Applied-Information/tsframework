@@ -90,6 +90,8 @@ public protocol signalDataProtocol : AnyObject {
   public func setSpecificBeaconType(values: Swift.String...)
   public func deviceFinderWithTSLib(deviceID: Swift.UInt32)
   public func disconnectFromSDk()
+  public func TestMessages(TimeInterval: Foundation.TimeInterval)
+  public func connectToServerSDK()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class StartViewHelper : ObjectiveC.NSObject {
@@ -99,19 +101,14 @@ public protocol signalDataProtocol : AnyObject {
 }
 public protocol dataReadProtocol : AnyObject {
   func readDataFromServer(dataFromServer: Foundation.Data)
+  func printData()
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MySocketFile : ObjectiveC.NSObject, CocoaAsyncSocket.GCDAsyncSocketDelegate, Foundation.NetServiceDelegate, Foundation.StreamDelegate {
-  public func connectToServer() -> Swift.Bool
-  public func disconnectGCDSocket(string: Swift.String)
-  public func sendDataToServer(reqData: Foundation.Data)
-  public func getDataFromServer() -> Swift.Bool
+  public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket!, willDisconnectWithError err: Foundation.NSError!)
   @objc public func socket(_ socket: CocoaAsyncSocket.GCDAsyncSocket, didConnectToHost host: Swift.String, port p: Swift.UInt16)
   @objc public func socketDidDisconnect(_ socket: CocoaAsyncSocket.GCDAsyncSocket, withError err: (any Swift.Error)?)
-  @objc public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didReadPartialDataOfLength partialLength: Swift.UInt, tag: Swift.Int)
-  @objc public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didWriteDataWithTag tag: Swift.Int)
   @objc public func socket(_ _sock: CocoaAsyncSocket.GCDAsyncSocket, didRead data: Foundation.Data, withTag tag: Swift.Int)
   public func checkData()
-  public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket!, willDisconnectWithError err: Foundation.NSError!)
   @objc public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didAcceptNewSocket newSocket: CocoaAsyncSocket.GCDAsyncSocket)
   @objc deinit
 }
@@ -159,6 +156,7 @@ public protocol dataReadProtocol : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers public class GPSWrapper : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
   @objc override dynamic public init()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
   public func start()
   public func getLocationFromHostApp(lat: Swift.Float, lng: Swift.Float)
   public func modeUpdateLocation()
@@ -171,6 +169,7 @@ public protocol dataReadProtocol : AnyObject {
   @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateHeading newHeading: CoreLocation.CLHeading)
   public func locationsFortesting()
   public func updateLocationInSDK(lat: Swift.Float, lng: Swift.Float)
+  public func updateLocationSettings()
   @objc deinit
 }
 public enum ReachabilityError : Swift.Error {
