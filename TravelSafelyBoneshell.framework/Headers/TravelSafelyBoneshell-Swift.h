@@ -356,8 +356,8 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell6BaseVC")
 @class CLLocation;
 @class CLHeading;
 
-SWIFT_CLASS("_TtC21TravelSafelyBoneshell10GPSWrapper")
-@interface GPSWrapper : NSObject <CLLocationManagerDelegate>
+SWIFT_CLASS("_TtC21TravelSafelyBoneshell18GPSWrapper_1111111")
+@interface GPSWrapper_1111111 : NSObject <CLLocationManagerDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
@@ -409,9 +409,9 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell15StartViewHelper")
 
 SWIFT_CLASS("_TtC21TravelSafelyBoneshell18TravelSafelyThread")
 @interface TravelSafelyThread : NSThread
-- (void)main;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)main;
 @end
 
 
