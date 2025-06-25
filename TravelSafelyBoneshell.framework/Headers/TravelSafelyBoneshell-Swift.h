@@ -389,6 +389,7 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell19StartViewController")
 - (void)setTraficSignalsRepete;
 - (void)listenToServerWithReadData:(NSData * _Nonnull)readData fromUblox:(BOOL)fromUblox;
 - (void)invalidTimerDuringLogout;
+- (void)setcityName;
 @end
 
 SWIFT_CLASS("_TtC21TravelSafelyBoneshell15StartViewHelper")
