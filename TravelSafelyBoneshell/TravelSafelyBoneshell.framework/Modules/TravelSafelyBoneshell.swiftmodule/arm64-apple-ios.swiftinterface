@@ -1,0 +1,475 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TravelSafelyBoneshell
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import AVFoundation
+import AudioToolbox
+import CocoaAsyncSocket
+import CoreLocation
+import Foundation
+import MediaPlayer
+import RealmSwift
+import Swift
+import SystemConfiguration
+@_exported import TravelSafelyBoneshell
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol signalDataProtocolApi : AnyObject {
+  func storeDataProtocolApi(_ myData: Swift.String)
+  init()
+}
+@objc @_inheritsConvenienceInitializers public class APIClass : ObjectiveC.NSObject {
+  weak public var delegateApi: (any TravelSafelyBoneshell.signalDataProtocolApi)?
+  public class func AuthSignUsingToken(_ token: Swift.String, app_name: Swift.String, failure: @escaping (Swift.UInt32?, any Swift.Error, Foundation.NSError) -> (), callback: @escaping (Swift.Dictionary<Swift.String, Swift.AnyObject>) -> ())
+  public class func serviceAreaUpate(loginDict: Foundation.NSDictionary, isServiceAreaCalled: Swift.Bool)
+  @objc public func forceUpdateAnonymousID()
+  public class func AuthSignIn(_ username: Swift.String, password: Swift.String, app_name: Swift.String, failure: @escaping (Swift.UInt32?, any Swift.Error, Foundation.NSError) -> (), callback: @escaping (Swift.Dictionary<Swift.String, Swift.AnyObject>) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+public class TravelSafelyBoneshell {
+  public init()
+  @objc deinit
+}
+public protocol signalDataProtocolTravel : AnyObject {
+  func storeDataProtocolTravel(_ myData: Swift.String)
+  init()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TravelSafelyThread : Foundation.Thread {
+  weak public var delegate: (any TravelSafelyBoneshell.signalDataProtocolTravel)?
+  public var threadTimer: Foundation.Timer?
+  @objc override dynamic public func main()
+  @objc deinit
+}
+public struct imageDataStored {
+}
+public protocol signalDataProtocol : AnyObject {
+  func storeDataProtocol(_ myData: Swift.String)
+  init()
+}
+@objc @_inheritsConvenienceInitializers public class StartViewController : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  weak public var delegate: (any TravelSafelyBoneshell.signalDataProtocol)?
+  public var authenticateWhenServiceAreaNotAvailable: Swift.Bool
+  @objc override dynamic public init()
+  public func switchTestOnDesk(setVal: Swift.Bool)
+  public func updateServiceAreaFromDemoSecond(_ notification: Foundation.NSDictionary)
+  public func updateServiceAreaFromFixedLocation(_ notification: Foundation.NSDictionary)
+  public func updateStaticlocationArray(_ notification: Foundation.NSDictionary)
+  public func testOnDeskSwitch()
+  public func updateLocationandCallOthers()
+  @objc public func determineUserModeAutomatically()
+  public func setLocalData(type: Swift.String)
+  public func showActionSheetToGetDeviceID()
+  public func reloadFloatingButtons()
+  public func setVehicleModeText(vehicleModeLbl: Swift.String)
+  public func stopSocketConnection()
+  public func setBottomBarButtonIcon(vehicleMode: Swift.String)
+  public func doOncePerSecond()
+  public func checkActiveSpat()
+  public func phases_onSelect()
+  @objc public func setTraficSignalsRepete()
+  public func setTrafficSignals()
+  public func travelSafelyVisibility(setVisibility: Swift.Bool)
+  public func checkPreemption()
+  @objc public func listenToServer(readData: Foundation.Data, fromUblox: Swift.Bool)
+  public func checkBottomBarSelectedIndex(BeaconSpeedLimit: Swift.Int, UnitType: Swift.String)
+  public func niceName()
+  public func updateServiceAreaValue()
+  @objc public func invalidTimerDuringLogout()
+  @objc public func setcityName()
+  public func setuserConfig(value: Swift.Int)
+  public func motTapped()
+  public func cycTapped()
+  public func pedTapped()
+  public func clearSpatArray()
+  public func clearDeviceSpatArray()
+  public func setSpecificBeaconType(values: Swift.String...)
+  public func deviceFinderWithTSLib(deviceID: Swift.UInt32)
+  public func disconnectFromSDk()
+  public func TestMessages(TimeInterval: Foundation.TimeInterval)
+  public func connectToServerSDK()
+  public func UpdateLocationData(latitude: CoreLocation.CLLocationDegrees, longitude: CoreLocation.CLLocationDegrees, speed: Swift.Float, bearing: Swift.Float, altitude: CoreLocation.CLLocationDistance)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class StartViewHelper : ObjectiveC.NSObject {
+  public class func cleardata()
+  @objc deinit
+  @objc override dynamic public init()
+}
+public protocol dataReadProtocol : AnyObject {
+  func readDataFromServer(dataFromServer: Foundation.Data)
+  func printData()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class MySocketFile : ObjectiveC.NSObject, CocoaAsyncSocket.GCDAsyncSocketDelegate, Foundation.NetServiceDelegate, Foundation.StreamDelegate {
+  public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket!, willDisconnectWithError err: Foundation.NSError!)
+  @objc public func socket(_ socket: CocoaAsyncSocket.GCDAsyncSocket, didConnectToHost host: Swift.String, port p: Swift.UInt16)
+  @objc public func socketDidDisconnect(_ socket: CocoaAsyncSocket.GCDAsyncSocket, withError err: (any Swift.Error)?)
+  @objc public func socket(_ _sock: CocoaAsyncSocket.GCDAsyncSocket, didRead data: Foundation.Data, withTag tag: Swift.Int)
+  public func checkData()
+  @objc public func socket(_ sock: CocoaAsyncSocket.GCDAsyncSocket, didAcceptNewSocket newSocket: CocoaAsyncSocket.GCDAsyncSocket)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Helper : ObjectiveC.NSObject {
+  public class func encrypt(plainText: Swift.String, Key: Swift.String) -> Swift.String
+  public class func decrypt(encryptedText: Swift.String, password: Swift.String) -> Swift.String
+  public class func createBasicAlert(title: Swift.String?, message: Swift.String?, action: ((UIKit.UIAlertAction) -> Swift.Void)? = nil) -> UIKit.UIAlertController
+  public class func showAlert(sender: UIKit.UIViewController, title: Swift.String, message: Swift.String)
+  public func loginApiExternal(username: Swift.String, password: Swift.String, isServiceAreaCalled: Swift.Bool, viewController: UIKit.UIViewController, isSwitchToDev: Swift.Bool)
+  public func loginApi(loderdisplay: Swift.Bool, isFromLoginScreen: Swift.Bool, isServiceAreaCalled: Swift.Bool, isDebugApiCalled: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AlarmsHelper : ObjectiveC.NSObject {
+  public class func checkAlertsAndAlarms(startVC: TravelSafelyBoneshell.StartViewController)
+  public class func showAlertsAndAlarmsHelper(safetyMessageDataObj: TravelSafelyBoneshell.SafetyMessageData, checkProximityAlart: Swift.Bool, startVC: TravelSafelyBoneshell.StartViewController)
+  public class func saveDeviceIdFileWhenGetAlert()
+  public class func checkDismissAlarmScreen(startVC: TravelSafelyBoneshell.StartViewController)
+  public class func pedestrianAlarmsAndAlerts(safetyMessageDataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, startVC: TravelSafelyBoneshell.StartViewController)
+  public class func cyclistAlarmsAndAlert(safetyMessageDataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, startVC: TravelSafelyBoneshell.StartViewController)
+  public class func motoristAlarmsAndAlert(safetyMessageDataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, startVC: TravelSafelyBoneshell.StartViewController)
+  public class func alarmThreashHoldApi(startvc: TravelSafelyBoneshell.StartViewController)
+  public class func checkProximityAlerts(devicedataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, startvc: TravelSafelyBoneshell.StartViewController)
+  public class func calculateClosingSpeed(safetyMessageDataObj: TravelSafelyBoneshell.SafetyMessageData, startVC: TravelSafelyBoneshell.StartViewController) -> Swift.Float
+  public class func getBearing(fromPoint: CoreLocation.CLLocationCoordinate2D, toPoint: CoreLocation.CLLocationCoordinate2D) -> Swift.Double
+  public class func degreesToRadians2(degrees: Swift.Float) -> Swift.Float
+  public class func calculateMissDistance(devicedataObj: TravelSafelyBoneshell.SafetyMessageData, distanceInMeters: Swift.Float, motoristHeading: Swift.Float, startVC: TravelSafelyBoneshell.StartViewController) -> Swift.Float
+  public class func getPassengerType(passengerType: Swift.Int8) -> Swift.String
+  public class func setSettingControll(settingName: Swift.String, setValue: Swift.Bool)
+  public class func setWWDSettingControll(settingName: Swift.String, setValue: Swift.Double)
+  public class func getAllUserDefaultDetails()
+  public class func setSettingsDefaultValAfterTSLibrary()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AuthClass : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NewLocalObject {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NewLocalDBObject {
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class GPSWrapper_1111111 : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  @objc override dynamic public init()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  public func start()
+  public func getLocationFromHostApp(lat: Swift.Float, lng: Swift.Float)
+  public func modeUpdateLocation()
+  public func demoModecheck()
+  public func demoModeUnckeck()
+  public func updateLocationBackground()
+  public func demoModeSetDefalutFalse()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateHeading newHeading: CoreLocation.CLHeading)
+  public func locationsFortesting()
+  public func updateLocationInSDK(lat: Swift.Float, lng: Swift.Float)
+  public func updateLocationSettings()
+  @objc deinit
+}
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+extension Foundation.NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (TravelSafelyBoneshell.Reachability) -> ()
+  public typealias NetworkUnreachable = (TravelSafelyBoneshell.Reachability) -> ()
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: TravelSafelyBoneshell.Reachability.NetworkStatus, b: TravelSafelyBoneshell.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    @available(*, deprecated, renamed: "unavailable")
+    public static let none: TravelSafelyBoneshell.Reachability.Connection
+    public static func == (a: TravelSafelyBoneshell.Reachability.Connection, b: TravelSafelyBoneshell.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: TravelSafelyBoneshell.Reachability.NetworkReachable?
+  public var whenUnreachable: TravelSafelyBoneshell.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: TravelSafelyBoneshell.Reachability.Connection {
+    get
+  }
+  public var connection: TravelSafelyBoneshell.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension TravelSafelyBoneshell.Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public enum EnMessageType : Swift.Int {
+  case basicSafetyMessage
+  case personalSafetyMessage
+  case basicSafetyMessageEmergency
+  case SPATmessage
+  case beaconSPATmessage
+  case shortSPATmessage
+  case dmsSPATmessage
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum EnMessageCount : Swift.Int {
+  case basicSafetyMessageCount
+  case personalSafetyMessageCount
+  case sPATMessageCount
+  case shortSPATMessageCount
+  case beaconSPATMessageCount
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum MapType : Swift.Int {
+  case spat
+  case beacon
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct BUTTONTAG {
+}
+public enum EnPassengerType : Swift.Int {
+  case UNAVAILABLE
+  case PEDESTRIAN
+  case CYCLIST
+  case MOTORIST
+  case PUBLICSAFETYWORKER
+  case SCHOOLBUSVEHICLE
+  case EMERGENCYVEHICLE
+  case CITYBUS
+  case EXTENDED
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum AppStates : Swift.String {
+  case BACKGROUND
+  case FOREGROUND
+  case TERMINATED
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VehicleModeEnglish {
+}
+public enum ExtendedType : Swift.Int {
+  case EMERGENCYVEHICLE
+  case TSPRO
+  case SCHOOLBUS
+  case PUBLICBUS
+  case STOPPEDBUS
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct AlertMessageEnglish {
+}
+public struct AlertOptionsEnglish {
+}
+public struct ConnectionStatus {
+}
+public struct VehicleDirection {
+}
+public struct MovementTypeEnglish {
+  public static let unknown: Swift.String
+  public static let towards: Swift.String
+  public static let away: Swift.String
+  public static let stoppedAway: Swift.String
+  public static let stoppedTowards: Swift.String
+}
+public struct MovementEnum {
+  public static let unknown: Swift.Int
+  public static let towards: Swift.Int
+  public static let away: Swift.Int
+  public static let stoppedAway: Swift.Int
+  public static let stoppedTowards: Swift.Int
+}
+public struct Settings {
+}
+public struct UserDefaultConstants {
+  public static let stringDebugEmail: Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class BaseVC : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public func connectSocket()
+  @_Concurrency.MainActor @preconcurrency public func disconnectSocket()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct alarmAndAlertStruct {
+}
+@objc @_inheritsConvenienceInitializers public class SafetyMessageData : ObjectiveC.NSObject {
+  public var setExtended_type: Swift.Int16!
+  public var msgID: Swift.UInt8
+  public var passengerType: Swift.Int8!
+  public var msgCnt: Swift.UInt
+  public var vehicleID: Swift.Int32
+  public var secMark: Swift.Int16?
+  public var newLat: Swift.Double?
+  public var newLon: Swift.Double?
+  public var elev: Swift.Int16?
+  public var accuracy: Swift.Int32?
+  public var tempSpeed: Swift.UInt16
+  public var speed: Swift.Float?
+  public var speedCount: Swift.Int16
+  public var heading: Swift.Int16?
+  public var angle: Swift.Int8?
+  public var accelSet: Swift.Int64?
+  public var brakes: Swift.Int16?
+  public var size: Swift.Int16?
+  public var recievedData: [Swift.UInt8]
+  public var receivedTime: Foundation.Date?
+  public var movementState: Swift.String?
+  public var distance: Swift.Double?
+  public var missDistance: Swift.Float?
+  public var alarmsAndAlerts: TravelSafelyBoneshell.alarmAndAlertStruct
+  public func initWithArray(recievedArray: [Swift.UInt8]) -> TravelSafelyBoneshell.SafetyMessageData
+  public func basicSafetyMessageData()
+  public func checkForEmergencyVehicleAsPassengerType()
+  public func personalSafetyMessage()
+  public func convertToBytes(fromVal: Swift.Int, toVal: Swift.Int) -> Foundation.Data
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AutoDetectVehicleAlgorithm : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor @preconcurrency public func calculateVehicleType(previousVal: Swift.String, averageSpeed: Swift.Float) -> (selectedMode: Swift.String, buttonTag: Swift.Int)
+  @_Concurrency.MainActor @preconcurrency public func clearCountDownTime()
+  @_Concurrency.MainActor @preconcurrency public func startCountDownTimer()
+  @objc @_Concurrency.MainActor @preconcurrency public func incrementTimerVal()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class AppSingletonVariable : ObjectiveC.NSObject {
+  public var deviceID: Swift.Int32
+  public var isAccessibleMode: Swift.Bool
+  public var mySocket: TravelSafelyBoneshell.MySocketFile
+  public var taskarray: [Foundation.URLSessionDataTask]
+  public var loginLat: Swift.Float
+  public var loginLong: Swift.Float
+  public var debugEnable: Swift.Bool
+  public var proModeEnable: Swift.Bool
+  public var alertString: Swift.String
+  public var isAlarm: Swift.Bool
+  public var cityName: Swift.String
+  public var startVC: TravelSafelyBoneshell.StartViewController
+  public var laneMapDataArray: Foundation.NSMutableArray
+  public var deviceString: Swift.String
+  public var laneString: Swift.String
+  public var locateDeviceLatitude: Swift.Double?
+  public var locateDeviceLongitude: Swift.Double?
+  public var deviceIdLocate: Swift.Int?
+  public var isConnected: Swift.Bool
+  public class var sharedInstance: TravelSafelyBoneshell.AppSingletonVariable {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct BufferQueue<T> {
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public mutating func enqueue(_ element: T)
+  public mutating func dequeue() -> T?
+  public var front: T? {
+    get
+  }
+}
+@available(*, unavailable, renamed: "Connection")
+extension TravelSafelyBoneshell.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension TravelSafelyBoneshell.Reachability.NetworkStatus : Swift.Hashable {}
+extension TravelSafelyBoneshell.Reachability.Connection : Swift.Equatable {}
+extension TravelSafelyBoneshell.Reachability.Connection : Swift.Hashable {}
+extension TravelSafelyBoneshell.EnMessageType : Swift.Equatable {}
+extension TravelSafelyBoneshell.EnMessageType : Swift.Hashable {}
+extension TravelSafelyBoneshell.EnMessageType : Swift.RawRepresentable {}
+extension TravelSafelyBoneshell.EnMessageCount : Swift.Equatable {}
+extension TravelSafelyBoneshell.EnMessageCount : Swift.Hashable {}
+extension TravelSafelyBoneshell.EnMessageCount : Swift.RawRepresentable {}
+extension TravelSafelyBoneshell.MapType : Swift.Equatable {}
+extension TravelSafelyBoneshell.MapType : Swift.Hashable {}
+extension TravelSafelyBoneshell.MapType : Swift.RawRepresentable {}
+extension TravelSafelyBoneshell.EnPassengerType : Swift.Equatable {}
+extension TravelSafelyBoneshell.EnPassengerType : Swift.Hashable {}
+extension TravelSafelyBoneshell.EnPassengerType : Swift.RawRepresentable {}
+extension TravelSafelyBoneshell.AppStates : Swift.Equatable {}
+extension TravelSafelyBoneshell.AppStates : Swift.Hashable {}
+extension TravelSafelyBoneshell.AppStates : Swift.RawRepresentable {}
+extension TravelSafelyBoneshell.ExtendedType : Swift.Equatable {}
+extension TravelSafelyBoneshell.ExtendedType : Swift.Hashable {}
+extension TravelSafelyBoneshell.ExtendedType : Swift.RawRepresentable {}

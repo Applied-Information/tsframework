@@ -27953,6 +27953,95 @@
           },
           {
             "kind": "Var",
+            "name": "wwdLaneCounterBit3",
+            "printedName": "wwdLaneCounterBit3",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3Sivs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3SivM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18wwdLaneCounterBit3SivM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "LastlaneDistance",
             "printedName": "LastlaneDistance",
             "children": [
@@ -105958,595 +106047,602 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12288,
+      "offset": 12275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12327,
+      "offset": 12319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12358,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12684,
+      "offset": 12715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12716,
+      "offset": 12747,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12826,
+      "offset": 12857,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 12951,
+      "offset": 12982,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12986,
+      "offset": 13017,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 13474,
+      "offset": 13505,
       "length": 934,
       "value": "[\"No Alert\", \"Red light\", \"Speeding in school zone\", \"Slow down - Curve ahead\", \"Speeding in slow speed zone\", \"Speeding in work zone\", \"Warning wrong way – Turn around\", \"Stop for pedestrian\", \"High speed vehicle\", \"Emergency vehicle\", \"Emergency vehicle left\", \"Emergency vehicle right\", \"Emergency vehicle front\", \"Emergency vehicle behind\", \"Cyclist\", \"Pedestrian\", \"Brake\", \"School Bus\", \"INTERSECTION IN DARK. TREAT AS 4-WAY STOP\", \"Intersection is in flash, proceed with caution\", \"High speed vehicle caution\", \"Cyclist Alert\", \"Pedestrian Alert\", \"Railroad ahead Alert\", \"Stop sign ahead Alert\", \"Watch for Pedestrian on Left\", \"Watch for Pedestrian on Right\", \"Warning Wrong Way Driver ahead, Use Caution\", \"Warning Wrong Way Driver on Roadway, Use Caution\", \"STOP PEDESTRIAN\", \"Pedestrian ahead\", \"Caution High Water Ahead\", \"Warning Flooding Ahead\", \"Caution Overheight Vehicle Ahead\", \"Caution Overheight - Turn Back\", \"AnonymousID force refreshed Alert\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 172516,
+      "offset": 172547,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 172579,
+      "offset": 172610,
       "length": 10,
       "value": "\"gpsSpeed\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 172680,
+      "offset": 172711,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173821,
+      "offset": 173852,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173938,
+      "offset": 173969,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173959,
+      "offset": 173990,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174016,
+      "offset": 174047,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174390,
+      "offset": 174421,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174444,
+      "offset": 174475,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174481,
+      "offset": 174512,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174520,
+      "offset": 174551,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174572,
+      "offset": 174603,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174576,
+      "offset": 174607,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174621,
+      "offset": 174652,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174661,
+      "offset": 174692,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174834,
+      "offset": 174865,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174839,
+      "offset": 174870,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174884,
+      "offset": 174915,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174925,
+      "offset": 174956,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175254,
+      "offset": 175285,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175443,
+      "offset": 175474,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175508,
+      "offset": 175539,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175551,
+      "offset": 175582,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175556,
+      "offset": 175587,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175789,
+      "offset": 175820,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175795,
+      "offset": 175826,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 175922,
+      "offset": 175953,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 176271,
+      "offset": 176302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 176805,
+      "offset": 176836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176888,
+      "offset": 176919,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176945,
+      "offset": 176976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177021,
+      "offset": 177052,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177173,
+      "offset": 177204,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 177392,
+      "offset": 177423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177933,
+      "offset": 177964,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178073,
+      "offset": 178104,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178219,
+      "offset": 178250,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 178447,
+      "offset": 178478,
       "length": 53,
       "value": "\"array out of bounds exception, checkGreenLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178507,
+      "offset": 178538,
       "length": 4,
       "value": "1010"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206257,
+      "offset": 206288,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 206286,
+      "offset": 206317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206317,
+      "offset": 206348,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206344,
+      "offset": 206375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206369,
+      "offset": 206400,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206396,
+      "offset": 206427,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206422,
+      "offset": 206453,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206445,
+      "offset": 206476,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 206480,
+      "offset": 206511,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206668,
+      "offset": 206699,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206867,
+      "offset": 206898,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206915,
+      "offset": 206946,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207202,
+      "offset": 207233,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207301,
+      "offset": 207332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 207420,
+      "offset": 207451,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207512,
+      "offset": 207543,
       "length": 4,
       "value": "0x7D"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207786,
+      "offset": 207817,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 207832,
+      "offset": 207863,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208039,
+      "offset": 208070,
       "length": 4,
       "value": "0x5E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208106,
+      "offset": 208137,
       "length": 4,
       "value": "0x5D"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208166,
+      "offset": 208197,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208300,
+      "offset": 208331,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208542,
+      "offset": 208573,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208680,
+      "offset": 208711,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 208871,
+      "offset": 208902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 208956,
+      "offset": 208987,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 209043,
+      "offset": 209074,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 209165,
+      "offset": 209196,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 209377,
+      "offset": 209408,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 209632,
+      "offset": 209663,
       "length": 15,
       "value": "\"Routing agent\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 209771,
+      "offset": 209802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 253355,
+      "offset": 253386,
       "length": 2305,
       "value": "[0x0000, 0x1189, 0x2312, 0x329b, 0x4624, 0x57ad, 0x6536, 0x74bf, 0x8c48, 0x9dc1, 0xaf5a, 0xbed3, 0xca6c, 0xdbe5, 0xe97e, 0xf8f7, 0x1081, 0x0108, 0x3393, 0x221a, 0x56a5, 0x472c, 0x75b7, 0x643e, 0x9cc9, 0x8d40, 0xbfdb, 0xae52, 0xdaed, 0xcb64, 0xf9ff, 0xe876, 0x2102, 0x308b, 0x0210, 0x1399, 0x6726, 0x76af, 0x4434, 0x55bd, 0xad4a, 0xbcc3, 0x8e58, 0x9fd1, 0xeb6e, 0xfae7, 0xc87c, 0xd9f5, 0x3183, 0x200a, 0x1291, 0x0318, 0x77a7, 0x662e, 0x54b5, 0x453c, 0xbdcb, 0xac42, 0x9ed9, 0x8f50, 0xfbef, 0xea66, 0xd8fd, 0xc974, 0x4204, 0x538d, 0x6116, 0x709f, 0x0420, 0x15a9, 0x2732, 0x36bb, 0xce4c, 0xdfc5, 0xed5e, 0xfcd7, 0x8868, 0x99e1, 0xab7a, 0xbaf3, 0x5285, 0x430c, 0x7197, 0x601e, 0x14a1, 0x0528, 0x37b3, 0x263a, 0xdecd, 0xcf44, 0xfddf, 0xec56, 0x98e9, 0x8960, 0xbbfb, 0xaa72, 0x6306, 0x728f, 0x4014, 0x519d, 0x2522, 0x34ab, 0x0630, 0x17b9, 0xef4e, 0xfec7, 0xcc5c, 0xddd5, 0xa96a, 0xb8e3, 0x8a78, 0x9bf1, 0x7387, 0x620e, 0x5095, 0x411c, 0x35a3, 0x242a, 0x16b1, 0x0738, 0xffcf, 0xee46, 0xdcdd, 0xcd54, 0xb9eb, 0xa862, 0x9af9, 0x8b70, 0x8408, 0x9581, 0xa71a, 0xb693, 0xc22c, 0xd3a5, 0xe13e, 0xf0b7, 0x0840, 0x19c9, 0x2b52, 0x3adb, 0x4e64, 0x5fed, 0x6d76, 0x7cff, 0x9489, 0x8500, 0xb79b, 0xa612, 0xd2ad, 0xc324, 0xf1bf, 0xe036, 0x18c1, 0x0948, 0x3bd3, 0x2a5a, 0x5ee5, 0x4f6c, 0x7df7, 0x6c7e, 0xa50a, 0xb483, 0x8618, 0x9791, 0xe32e, 0xf2a7, 0xc03c, 0xd1b5, 0x2942, 0x38cb, 0x0a50, 0x1bd9, 0x6f66, 0x7eef, 0x4c74, 0x5dfd, 0xb58b, 0xa402, 0x9699, 0x8710, 0xf3af, 0xe226, 0xd0bd, 0xc134, 0x39c3, 0x284a, 0x1ad1, 0x0b58, 0x7fe7, 0x6e6e, 0x5cf5, 0x4d7c, 0xc60c, 0xd785, 0xe51e, 0xf497, 0x8028, 0x91a1, 0xa33a, 0xb2b3, 0x4a44, 0x5bcd, 0x6956, 0x78df, 0x0c60, 0x1de9, 0x2f72, 0x3efb, 0xd68d, 0xc704, 0xf59f, 0xe416, 0x90a9, 0x8120, 0xb3bb, 0xa232, 0x5ac5, 0x4b4c, 0x79d7, 0x685e, 0x1ce1, 0x0d68, 0x3ff3, 0x2e7a, 0xe70e, 0xf687, 0xc41c, 0xd595, 0xa12a, 0xb0a3, 0x8238, 0x93b1, 0x6b46, 0x7acf, 0x4854, 0x59dd, 0x2d62, 0x3ceb, 0x0e70, 0x1ff9, 0xf78f, 0xe606, 0xd49d, 0xc514, 0xb1ab, 0xa022, 0x92b9, 0x8330, 0x7bc7, 0x6a4e, 0x58d5, 0x495c, 0x3de3, 0x2c6a, 0x1ef1, 0x0f78]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 326237,
+      "offset": 327579,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 326260,
+      "offset": 327602,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 326339,
+      "offset": 327681,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 326491,
+      "offset": 327833,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 326519,
+      "offset": 327861,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 326590,
+      "offset": 327932,
       "length": 5,
       "value": "false"
     },
@@ -106651,14 +106747,14 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1198,
+      "offset": 1197,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/TSWrapper\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "Dictionary",
-      "offset": 1916,
+      "offset": 1915,
       "length": 3,
       "value": "[]"
     },
