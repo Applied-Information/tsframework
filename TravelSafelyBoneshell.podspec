@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.75'
-    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Fixed NTTA issue in Plano location. WWD multiple lanes. Fixed XCode version issue.'
+    s.version           = '1.0.78'
+    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia HTTP-2, mapFiles, Thread background, GPSWrapper,etc'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
     s.author            = { 'Name' => 'parvenk@appinfoinc.com' }
