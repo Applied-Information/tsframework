@@ -40918,6 +40918,9 @@
             "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkdE7TimeAPI6spatID7mapTypeys6UInt32V_SitF",
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -40948,9 +40951,6 @@
             "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC08downloaddE3API6spatID7mapTypeys6UInt32V_SitF",
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "funcSelfKind": "NonMutating"
           }
         ],
