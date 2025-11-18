@@ -109116,1413 +109116,1413 @@
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 3401,
-      "length": 24,
-      "value": "\"Service Area Not Found\""
+      "length": 42,
+      "value": "\"TravelSafely not available in your area.\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3487,
       "length": 27,
       "value": "\"stringServerNotResponding\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3538,
+      "offset": 3556,
       "length": 25,
       "value": "\"stringConnectionTimeout\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3594,
+      "offset": 3612,
       "length": 14,
       "value": "\"stringLogout\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3654,
+      "offset": 3672,
       "length": 29,
       "value": "\"stringLocationAccessMessage\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 3751,
       "length": 33,
       "value": "\"stringEmailNotConfiguredMessage\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3814,
+      "offset": 3832,
       "length": 31,
       "value": "\"stringEmailNotConfiguredTitle\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3911,
+      "offset": 3929,
       "length": 10,
       "value": "\"stringOk\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3953,
+      "offset": 3971,
       "length": 15,
       "value": "\"stringConnect\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 3999,
+      "offset": 4017,
       "length": 14,
       "value": "\"stringCancel\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4046,
+      "offset": 4064,
       "length": 16,
       "value": "\"stringSettings\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4094,
+      "offset": 4112,
       "length": 15,
       "value": "\"stringLoading\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4137,
+      "offset": 4155,
       "length": 11,
       "value": "\"stringYes\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4175,
+      "offset": 4193,
       "length": 10,
       "value": "\"stringNo\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4218,
+      "offset": 4236,
       "length": 16,
       "value": "\"stringtitleAdd\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4271,
+      "offset": 4289,
       "length": 20,
       "value": "\"stringEnterComment\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4329,
+      "offset": 4347,
       "length": 21,
       "value": "\"stringEnterDeviceID\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4417,
+      "offset": 4435,
       "length": 7,
       "value": "\"Start\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4453,
+      "offset": 4471,
       "length": 12,
       "value": "\"Disconnect\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4525,
+      "offset": 4543,
       "length": 7,
       "value": "\"Front\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4555,
+      "offset": 4573,
       "length": 6,
       "value": "\"Left\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4585,
+      "offset": 4603,
       "length": 7,
       "value": "\"Right\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4617,
+      "offset": 4635,
       "length": 8,
       "value": "\"Behind\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4697,
+      "offset": 4715,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 4757,
       "length": 9,
       "value": "\"towards\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4778,
+      "offset": 4796,
       "length": 6,
       "value": "\"away\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4821,
+      "offset": 4839,
       "length": 13,
       "value": "\"stoppedAway\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 4874,
+      "offset": 4892,
       "length": 16,
       "value": "\"stoppedTowards\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4955,
+      "offset": 4973,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 4989,
+      "offset": 5007,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5020,
+      "offset": 5038,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5058,
+      "offset": 5076,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 5099,
+      "offset": 5117,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5175,
+      "offset": 5193,
       "length": 24,
       "value": "\"autoCalculatedPosition\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5247,
+      "offset": 5265,
       "length": 25,
       "value": "\"pedestianProximityAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5323,
+      "offset": 5341,
       "length": 28,
       "value": "\"pedestrianSpeedingCarAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5403,
+      "offset": 5421,
       "length": 29,
       "value": "\"autoPedestianProximityAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5478,
+      "offset": 5496,
       "length": 23,
       "value": "\"cyclistProximityAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5542,
+      "offset": 5560,
       "length": 18,
       "value": "\"speedingCarAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5613,
+      "offset": 5631,
       "length": 30,
       "value": "\"cyclistEmergencyVehicleAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5699,
+      "offset": 5717,
       "length": 33,
       "value": "\"pedestrainEmergencyVehicleAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5780,
+      "offset": 5798,
       "length": 25,
       "value": "\"autoCyclistVehicleAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5852,
+      "offset": 5870,
       "length": 24,
       "value": "\"motoristProximityAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5918,
+      "offset": 5936,
       "length": 19,
       "value": "\"cyclistAheadAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 5982,
+      "offset": 6000,
       "length": 22,
       "value": "\"pedestrianAheadAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6058,
+      "offset": 6076,
       "length": 31,
       "value": "\"motoristEmergencyVehicleAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6135,
+      "offset": 6153,
       "length": 23,
       "value": "\"rearEndCollisionAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6207,
+      "offset": 6225,
       "length": 26,
       "value": "\"autoMotoristVehicleAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6271,
+      "offset": 6289,
       "length": 15,
       "value": "\"redLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6326,
+      "offset": 6344,
       "length": 17,
       "value": "\"greenLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6388,
+      "offset": 6406,
       "length": 21,
       "value": "\"cylistredLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6452,
+      "offset": 6470,
       "length": 26,
       "value": "\"stringCycRedLightRelaxed\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6520,
+      "offset": 6538,
       "length": 25,
       "value": "\"stringCycRedLightNormal\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6593,
+      "offset": 6611,
       "length": 24,
       "value": "\"cyclistGreenLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6659,
+      "offset": 6677,
       "length": 19,
       "value": "\"schoolBeaconAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6720,
+      "offset": 6738,
       "length": 19,
       "value": "\"curveWarningAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6782,
+      "offset": 6800,
       "length": 20,
       "value": "\"slowSpeedZoneAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 6858,
       "length": 15,
       "value": "\"workZoneAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6894,
+      "offset": 6912,
       "length": 16,
       "value": "\"schoolBusAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 6948,
+      "offset": 6966,
       "length": 15,
       "value": "\"wrongWayAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7006,
+      "offset": 7024,
       "length": 20,
       "value": "\"railroadAheadAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7070,
+      "offset": 7088,
       "length": 21,
       "value": "\"reversibleLaneAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7134,
+      "offset": 7152,
       "length": 20,
       "value": "\"stopSignAheadAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7197,
+      "offset": 7215,
       "length": 20,
       "value": "\"schoolBusStopAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7257,
+      "offset": 7275,
       "length": 17,
       "value": "\"debugModeEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7307,
+      "offset": 7325,
       "length": 18,
       "value": "\"fixedGPSLocation\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7365,
+      "offset": 7383,
       "length": 17,
       "value": "\"shouldPlaySound\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7425,
+      "offset": 7443,
       "length": 20,
       "value": "\"shouldDisplayAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7522,
+      "offset": 7540,
       "length": 16,
       "value": "\"testModeEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7572,
+      "offset": 7590,
       "length": 17,
       "value": "\"driveModeEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7630,
+      "offset": 7648,
       "length": 18,
       "value": "\"driveModeProcess\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7691,
+      "offset": 7709,
       "length": 18,
       "value": "\"driveModeProcess\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7745,
+      "offset": 7763,
       "length": 19,
       "value": "\"fordCarModeEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7806,
+      "offset": 7824,
       "length": 19,
       "value": "\"forInCarModeRadio\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7870,
+      "offset": 7888,
       "length": 22,
       "value": "\"forEmulatorModeRadio\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7929,
+      "offset": 7947,
       "length": 20,
       "value": "\"deviceFinderEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 7990,
+      "offset": 8008,
       "length": 27,
       "value": "\"seconds remaining to walk\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8057,
+      "offset": 8075,
       "length": 20,
       "value": "\"Get ready to walk!\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8164,
+      "offset": 8182,
       "length": 24,
       "value": "\"AcessibilityModeEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8280,
+      "offset": 8298,
       "length": 20,
       "value": "\"autoDetectMotorist\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8344,
+      "offset": 8362,
       "length": 21,
       "value": "\"busApproachingAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8413,
+      "offset": 8431,
       "length": 25,
       "value": "\"pedestrianCrossingAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8476,
+      "offset": 8494,
       "length": 15,
       "value": "\"leftTurnAlarm\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8535,
+      "offset": 8553,
       "length": 21,
       "value": "\"pedInCrossWalkAlarm\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8587,
+      "offset": 8605,
       "length": 13,
       "value": "\"stringUblox\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8637,
+      "offset": 8655,
       "length": 20,
       "value": "\"stringbeaconStatus\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8697,
+      "offset": 8715,
       "length": 17,
       "value": "\"StoppedBusAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8761,
+      "offset": 8779,
       "length": 35,
       "value": "\"Intersection Preempt Notification\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8899,
+      "offset": 8917,
       "length": 25,
       "value": "\"locationSevicesisEnable\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 8972,
+      "offset": 8990,
       "length": 36,
       "value": "\"launchfirsttimeandshowannouncement\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9051,
+      "offset": 9069,
       "length": 12,
       "value": "\"debugEmail\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9095,
+      "offset": 9113,
       "length": 9,
       "value": "\"proUser\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9149,
+      "offset": 9167,
       "length": 25,
       "value": "\"threshHoldsTimeStampKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9219,
+      "offset": 9237,
       "length": 25,
       "value": "\"serviceAreaTimeStampKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9289,
+      "offset": 9307,
       "length": 25,
       "value": "\"busStopAreaTimeStampKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9360,
+      "offset": 9378,
       "length": 18,
       "value": "\"arrayServiceArea\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9419,
+      "offset": 9437,
       "length": 18,
       "value": "\"arrayBusStopArea\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9482,
+      "offset": 9500,
       "length": 25,
       "value": "\"isServiceAreaEnabledKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9542,
+      "offset": 9560,
       "length": 12,
       "value": "\"SavedEmail\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9592,
+      "offset": 9610,
       "length": 15,
       "value": "\"SavedPassword\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9639,
+      "offset": 9657,
       "length": 11,
       "value": "\"LoginTime\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9691,
+      "offset": 9709,
       "length": 13,
       "value": "\"onloginpage\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9741,
+      "offset": 9759,
       "length": 14,
       "value": "\"ISCheckBoxOn\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9788,
+      "offset": 9806,
       "length": 10,
       "value": "\"latLogin\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9832,
+      "offset": 9850,
       "length": 11,
       "value": "\"longLogin\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9886,
+      "offset": 9904,
       "length": 20,
       "value": "\"RoutingAgentUrlKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 9950,
+      "offset": 9968,
       "length": 21,
       "value": "\"RoutingAgentPortKey\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10007,
+      "offset": 10025,
       "length": 17,
       "value": "\"launchfirsttime\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10059,
+      "offset": 10077,
       "length": 12,
       "value": "\"ISRemember\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10101,
+      "offset": 10119,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10148,
+      "offset": 10166,
       "length": 17,
       "value": "\"isBusStopActive\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10209,
+      "offset": 10227,
       "length": 21,
       "value": "\"isPedWalkAreaActive\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10267,
+      "offset": 10285,
       "length": 19,
       "value": "\"demoFixedLatitude\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10324,
+      "offset": 10342,
       "length": 20,
       "value": "\"demoFixedLongitude\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10379,
+      "offset": 10397,
       "length": 18,
       "value": "\"stringDateChange\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10437,
+      "offset": 10455,
       "length": 23,
       "value": "\"stringBusStopAreaName\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10501,
+      "offset": 10519,
       "length": 23,
       "value": "\"stringPedStopAreaName\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10567,
+      "offset": 10585,
       "length": 26,
       "value": "\"stringBusStopAreaEnabled\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10628,
+      "offset": 10646,
       "length": 18,
       "value": "\"stringLocateBool\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10683,
+      "offset": 10701,
       "length": 20,
       "value": "\"stringDropdownBool\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10743,
+      "offset": 10761,
       "length": 23,
       "value": "\"stringDeviceDirection\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10813,
+      "offset": 10831,
       "length": 30,
       "value": "\"stringlaneMissDistanceMargin\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10875,
+      "offset": 10893,
       "length": 15,
       "value": "\"demoModeCheck\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 10971,
+      "offset": 10989,
       "length": 28,
       "value": "\"Proximity alert pedestrian\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11039,
+      "offset": 11057,
       "length": 25,
       "value": "\"Proximity alert cyclist\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11105,
+      "offset": 11123,
       "length": 26,
       "value": "\"Proximity alert motorist\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11180,
+      "offset": 11198,
       "length": 35,
       "value": "\"Proximity alert emergency vehicle\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11250,
+      "offset": 11268,
       "length": 20,
       "value": "\"High speed vehicle\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11312,
+      "offset": 11330,
       "length": 28,
       "value": "\"High speed vehicle caution\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11375,
+      "offset": 11393,
       "length": 19,
       "value": "\"Emergency vehicle\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11433,
+      "offset": 11451,
       "length": 24,
       "value": "\"Emergency vehicle left\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11497,
+      "offset": 11515,
       "length": 25,
       "value": "\"Emergency vehicle right\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11562,
+      "offset": 11580,
       "length": 25,
       "value": "\"Emergency vehicle front\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11628,
+      "offset": 11646,
       "length": 26,
       "value": "\"Emergency vehicle behind\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11680,
+      "offset": 11698,
       "length": 9,
       "value": "\"Cyclist\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11718,
+      "offset": 11736,
       "length": 12,
       "value": "\"Pedestrain\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11754,
+      "offset": 11772,
       "length": 7,
       "value": "\"Brake\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11789,
+      "offset": 11807,
       "length": 12,
       "value": "\"School Bus\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11834,
+      "offset": 11852,
       "length": 29,
       "value": "\"stringSchoolBusStoppedAhead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 11905,
+      "offset": 11923,
       "length": 22,
       "value": "\"stringSchoolBusAhead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12011,
+      "offset": 12029,
       "length": 25,
       "value": "\"Speeding in school zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12070,
+      "offset": 12088,
       "length": 25,
       "value": "\"Slow down - Curve ahead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12132,
+      "offset": 12150,
       "length": 29,
       "value": "\"Speeding in slow speed zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12193,
+      "offset": 12211,
       "length": 23,
       "value": "\"Speeding in work zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12252,
+      "offset": 12270,
       "length": 15,
       "value": "\"Unknown speed\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12299,
+      "offset": 12317,
       "length": 25,
       "value": "\"Wrong way – turn back\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12361,
+      "offset": 12379,
       "length": 16,
       "value": "\"Railroad ahead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12415,
+      "offset": 12433,
       "length": 17,
       "value": "\"Stop sign ahead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12469,
+      "offset": 12487,
       "length": 49,
       "value": "\"Warning - School children gathering at bus stop\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12556,
+      "offset": 12574,
       "length": 17,
       "value": "\"STOP PEDESTRIAN\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12612,
+      "offset": 12630,
       "length": 18,
       "value": "\"Pedestrian ahead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12672,
+      "offset": 12690,
       "length": 35,
       "value": "\"Warning wrong way – Turn around\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12749,
+      "offset": 12767,
       "length": 45,
       "value": "\"Warning Wrong Way Driver ahead, Use Caution\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12837,
+      "offset": 12855,
       "length": 50,
       "value": "\"Warning Wrong Way Driver on Roadway, Use Caution\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 12961,
+      "offset": 12979,
       "length": 31,
       "value": "\"Pedestrian in Crosswalk ahead\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13023,
+      "offset": 13041,
       "length": 30,
       "value": "\"Watch for Pedestrian on Left\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13085,
+      "offset": 13103,
       "length": 31,
       "value": "\"Watch for Pedestrian on Right\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13188,
+      "offset": 13206,
       "length": 15,
       "value": "\"logInAsString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13240,
+      "offset": 13258,
       "length": 20,
       "value": "\"demoLocationString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13334,
+      "offset": 13352,
       "length": 7,
       "value": "\"Green\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13382,
+      "offset": 13400,
       "length": 21,
       "value": "\"Get ready for green\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13437,
+      "offset": 13455,
       "length": 11,
       "value": "\"Emergency\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13525,
+      "offset": 13543,
       "length": 20,
       "value": "\"reconnectingString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13633,
+      "offset": 13651,
       "length": 20,
       "value": "\"notConnectedString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13690,
+      "offset": 13708,
       "length": 20,
       "value": "\"disConnectedString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13746,
+      "offset": 13764,
       "length": 19,
       "value": "\"busApproachString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13804,
+      "offset": 13822,
       "length": 17,
       "value": "\"ConnectedString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13856,
+      "offset": 13874,
       "length": 18,
       "value": "\"ConnectingString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13919,
+      "offset": 13937,
       "length": 28,
       "value": "\"DisconnectedWithout_String\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 13988,
+      "offset": 14006,
       "length": 24,
       "value": "\"intersectionDarkString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14054,
+      "offset": 14072,
       "length": 25,
       "value": "\"intersectionFlashString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14128,
+      "offset": 14146,
       "length": 43,
       "value": "\"INTERSECTION IN DARK. TREAT AS 4-WAY STOP\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14216,
+      "offset": 14234,
       "length": 28,
       "value": "\"intersectionFlashDotString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14279,
+      "offset": 14297,
       "length": 21,
       "value": "\"Wait for pedestrian\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14339,
+      "offset": 14357,
       "length": 18,
       "value": "\"Left Turn Unsafe\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14397,
+      "offset": 14415,
       "length": 19,
       "value": "\"Left Turn Caution\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14464,
+      "offset": 14482,
       "length": 29,
       "value": "\"In school zone\nSpeed limit\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14536,
+      "offset": 14554,
       "length": 26,
       "value": "\"Curve ahead\nSpeed limit\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14606,
+      "offset": 14624,
       "length": 34,
       "value": "\"In slow speed zone\nSpeed limit \""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14679,
+      "offset": 14697,
       "length": 27,
       "value": "\"In work zone\nSpeed limit\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14743,
+      "offset": 14761,
       "length": 16,
       "value": "\"Wrong Way Zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14792,
+      "offset": 14810,
       "length": 21,
       "value": "\"Railroad Ahead Zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14846,
+      "offset": 14864,
       "length": 22,
       "value": "\"Stop Sign Ahead Zone\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14911,
+      "offset": 14929,
       "length": 39,
       "value": "\"School children gathering at bus stop\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 14983,
+      "offset": 15001,
       "length": 11,
       "value": "\"DEMO MODE\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15033,
+      "offset": 15051,
       "length": 17,
       "value": "\"Proximity Alert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15083,
+      "offset": 15101,
       "length": 11,
       "value": "\"Red light\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15134,
+      "offset": 15152,
       "length": 26,
       "value": "\"In a pedestrian crossing\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15200,
+      "offset": 15218,
       "length": 23,
       "value": "\"stringCycRedLightMode\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15263,
+      "offset": 15281,
       "length": 23,
       "value": "\"stringMotRedLightMode\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15325,
+      "offset": 15343,
       "length": 22,
       "value": "\"unsafeLeftTurnString\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15377,
+      "offset": 15395,
       "length": 7,
       "value": "\"Alert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15423,
+      "offset": 15441,
       "length": 19,
       "value": "\"Brought to you by\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15489,
+      "offset": 15507,
       "length": 30,
       "value": "\"stringAnonymousIDForceUpdate\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15564,
+      "offset": 15582,
       "length": 50,
       "value": "\"Intersection is in flash, treat as four way stop\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 15662,
+      "offset": 15680,
       "length": 48,
       "value": "\"Intersection is in flash, proceed with caution\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 15765,
+      "offset": 15783,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 15798,
+      "offset": 15816,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 15883,
+      "offset": 15901,
       "length": 9,
       "value": "436886505"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "IntegerLiteral",
-      "offset": 15936,
+      "offset": 15954,
       "length": 10,
       "value": "-794023668"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 15992,
+      "offset": 16010,
       "length": 10,
       "value": "43.6886505"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/Constants.swift",
       "kind": "FloatLiteral",
-      "offset": 16046,
+      "offset": 16064,
       "length": 11,
       "value": "-79.4023668"
     },
