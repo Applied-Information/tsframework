@@ -40436,6 +40436,96 @@
           },
           {
             "kind": "Var",
+            "name": "checkFileTimeApiInhabit",
+            "printedName": "checkFileTimeApiInhabit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvp",
+            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvg",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvs",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvM",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "inUse",
             "printedName": "inUse",
             "children": [
@@ -40455,7 +40545,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -40879,6 +40969,9 @@
             "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC08downloaddE3API6spatID7mapTypeys6UInt32V_SitF",
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -107183,14 +107276,14 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1414,
+      "offset": 1486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "Dictionary",
-      "offset": 1918,
+      "offset": 1990,
       "length": 3,
       "value": "[]"
     },
