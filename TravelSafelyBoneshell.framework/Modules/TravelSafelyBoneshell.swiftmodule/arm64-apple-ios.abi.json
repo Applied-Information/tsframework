@@ -466,6 +466,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5838,6 +5845,20 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6861,7 +6882,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -6884,7 +6905,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -6911,7 +6932,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -32479,7 +32500,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Tuple",
-                "printedName": "(timestamp: Foundation.Date?, location: CoreLocation.CLLocation?)",
+                "printedName": "(timestamp: Foundation.Date?, location: _LocationEssentials.CLLocation?)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -32498,12 +32519,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CoreLocation.CLLocation?",
+                    "printedName": "_LocationEssentials.CLLocation?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocation",
-                        "printedName": "CoreLocation.CLLocation",
+                        "printedName": "_LocationEssentials.CLLocation",
                         "usr": "c:objc(cs)CLLocation"
                       }
                     ],
@@ -32566,12 +32587,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreLocation.CLLocation?",
+                "printedName": "_LocationEssentials.CLLocation?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -32580,7 +32601,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -32653,7 +32674,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
@@ -32740,13 +32761,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -32776,13 +32797,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
@@ -32893,7 +32914,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -32950,7 +32971,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -33383,13 +33404,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
@@ -33428,13 +33449,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -39916,6 +39937,186 @@
           },
           {
             "kind": "Var",
+            "name": "element",
+            "printedName": "element",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvp",
+            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvg",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvs",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvM",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC7elementSo8NSStringCvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeStamp",
+            "printedName": "timeStamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSMutableString",
+                "printedName": "Foundation.NSMutableString",
+                "usr": "c:objc(cs)NSMutableString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvp",
+            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvg",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSMutableString",
+                    "printedName": "Foundation.NSMutableString",
+                    "usr": "c:objc(cs)NSMutableString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvs",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvM",
+                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSo15NSMutableStringCvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "CRCFromAPI",
             "printedName": "CRCFromAPI",
             "children": [
@@ -39933,10 +40134,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 5,
             "hasStorage": true,
             "accessors": [
               {
@@ -40034,7 +40234,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 6,
             "hasStorage": true,
             "accessors": [
               {
@@ -40154,7 +40354,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 5,
+            "fixedbinaryorder": 7,
             "hasStorage": true
           },
           {
@@ -40179,7 +40379,7 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 6,
+            "fixedbinaryorder": 8,
             "hasStorage": true
           },
           {
@@ -40204,96 +40404,8 @@
               "HasStorage",
               "AccessControl"
             ],
-            "fixedbinaryorder": 7,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "element",
-            "printedName": "element",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC7element33_D9CFC3219C85E27CA4F93CAFE2C67461LLSSvp",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC7element33_D9CFC3219C85E27CA4F93CAFE2C67461LLSSvp",
-            "moduleName": "TravelSafelyBoneshell",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 8,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "timeStamp",
-            "printedName": "timeStamp",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSSSgvp",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSSSgvp",
-            "moduleName": "TravelSafelyBoneshell",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "SetterAccess"
-            ],
             "fixedbinaryorder": 9,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9timeStampSSSgvg",
-                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9timeStampSSSgvg",
-                "moduleName": "TravelSafelyBoneshell",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
+            "hasStorage": true
           },
           {
             "kind": "Var",
@@ -40324,156 +40436,6 @@
           },
           {
             "kind": "Var",
-            "name": "checkFileTimeApiInhabit",
-            "printedName": "checkFileTimeApiInhabit",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvp",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvp",
-            "moduleName": "TravelSafelyBoneshell",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "fixedbinaryorder": 11,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvg",
-                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvg",
-                "moduleName": "TravelSafelyBoneshell",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvs",
-                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvs",
-                "moduleName": "TravelSafelyBoneshell",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvM",
-                "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC05checkE14TimeApiInhabitSdvM",
-                "moduleName": "TravelSafelyBoneshell",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "parseInFlight",
-            "printedName": "parseInFlight",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<Swift.UInt32>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt32",
-                    "printedName": "Swift.UInt32",
-                    "usr": "s:s6UInt32V"
-                  }
-                ],
-                "usr": "s:Sh"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC13parseInFlight33_D9CFC3219C85E27CA4F93CAFE2C67461LLShys6UInt32VGvp",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC13parseInFlight33_D9CFC3219C85E27CA4F93CAFE2C67461LLShys6UInt32VGvp",
-            "moduleName": "TravelSafelyBoneshell",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 12,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "parseLock",
-            "printedName": "parseLock",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DispatchQueue",
-                "printedName": "Dispatch.DispatchQueue",
-                "usr": "c:objc(cs)OS_dispatch_queue"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:21TravelSafelyBoneshell14MapFileManagerC9parseLock33_D9CFC3219C85E27CA4F93CAFE2C67461LLSo17OS_dispatch_queueCvp",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC9parseLock33_D9CFC3219C85E27CA4F93CAFE2C67461LLSo17OS_dispatch_queueCvp",
-            "moduleName": "TravelSafelyBoneshell",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 13,
-            "isLet": true,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
             "name": "inUse",
             "printedName": "inUse",
             "children": [
@@ -40493,7 +40455,7 @@
               "HasInitialValue",
               "HasStorage"
             ],
-            "fixedbinaryorder": 14,
+            "fixedbinaryorder": 11,
             "hasStorage": true,
             "accessors": [
               {
@@ -40782,40 +40744,6 @@
             "moduleName": "TravelSafelyBoneshell",
             "isOpen": true,
             "objc_name": "parser:didEndElement:namespaceURI:qualifiedName:",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "parser",
-            "printedName": "parser(_:parseErrorOccurred:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "XMLParser",
-                "printedName": "Foundation.XMLParser",
-                "usr": "c:objc(cs)NSXMLParser"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)MapFileManager(im)parser:parseErrorOccurred:",
-            "mangledName": "$s21TravelSafelyBoneshell14MapFileManagerC6parser_18parseErrorOccurredySo11NSXMLParserC_s0I0_ptF",
-            "moduleName": "TravelSafelyBoneshell",
-            "isOpen": true,
-            "objc_name": "parser:parseErrorOccurred:",
             "declAttributes": [
               "ObjC"
             ],
@@ -41419,13 +41347,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "printedName": "_LocationEssentials.CLLocationCoordinate2D",
                 "usr": "c:@S@CLLocationCoordinate2D"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "printedName": "_LocationEssentials.CLLocationCoordinate2D",
                 "usr": "c:@S@CLLocationCoordinate2D"
               }
             ],
@@ -43382,7 +43310,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocation",
-                "printedName": "CoreLocation.CLLocation",
+                "printedName": "_LocationEssentials.CLLocation",
                 "usr": "c:objc(cs)CLLocation"
               }
             ],
@@ -43405,7 +43333,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -43430,7 +43358,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -43940,12 +43868,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "CoreLocation.CLLocation?",
+                "printedName": "_LocationEssentials.CLLocation?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -43971,12 +43899,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CoreLocation.CLLocation?",
+                    "printedName": "_LocationEssentials.CLLocation?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocation",
-                        "printedName": "CoreLocation.CLLocation",
+                        "printedName": "_LocationEssentials.CLLocation",
                         "usr": "c:objc(cs)CLLocation"
                       }
                     ],
@@ -44004,12 +43932,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "CoreLocation.CLLocation?",
+                    "printedName": "_LocationEssentials.CLLocation?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CLLocation",
-                        "printedName": "CoreLocation.CLLocation",
+                        "printedName": "_LocationEssentials.CLLocation",
                         "usr": "c:objc(cs)CLLocation"
                       }
                     ],
@@ -44376,12 +44304,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[CoreLocation.CLLocation]",
+                "printedName": "[_LocationEssentials.CLLocation]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CLLocation",
-                    "printedName": "CoreLocation.CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
                     "usr": "c:objc(cs)CLLocation"
                   }
                 ],
@@ -55461,13 +55389,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "printedName": "_LocationEssentials.CLLocationCoordinate2D",
                 "usr": "c:@S@CLLocationCoordinate2D"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CLLocationCoordinate2D",
-                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "printedName": "_LocationEssentials.CLLocationCoordinate2D",
                 "usr": "c:@S@CLLocationCoordinate2D"
               }
             ],
@@ -56594,6 +56522,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -57687,6 +57622,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -58678,6 +58620,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -60184,6 +60133,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -60521,6 +60477,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -103592,6 +103555,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -103913,6 +103883,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -104532,6 +104509,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -105144,6 +105128,13 @@
             ],
             "usr": "s:s10SetAlgebraP",
             "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -107150,14 +107141,14 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/MySocketFile.swift",
       "kind": "FloatLiteral",
-      "offset": 7856,
+      "offset": 7874,
       "length": 4,
       "value": "1e-7"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Helpers\/MySocketFile.swift",
       "kind": "FloatLiteral",
-      "offset": 7933,
+      "offset": 7951,
       "length": 6,
       "value": "0.0001"
     },
@@ -107171,49 +107162,35 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 1301,
+      "offset": 1292,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "StringLiteral",
-      "offset": 1343,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1347,
       "length": 19,
       "value": "\"xml.parsing.queue\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1671,
-      "length": 16,
-      "value": "\"map.parse.lock\""
-    },
-    {
-      "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1710,
+      "offset": 1414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/NTTA-all-files\/NTTA-SDK\/TravelSafelyBoneshell\/Controllers\/MapFileManager.swift",
       "kind": "Dictionary",
-      "offset": 2594,
+      "offset": 1918,
       "length": 3,
       "value": "[]"
     },
