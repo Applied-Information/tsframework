@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'TravelSafelyBoneshell.xcframework'
 
-  ✅ s.static_framework = false
+  s.static_framework = false
 end
