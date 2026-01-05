@@ -1,17 +1,13 @@
-Pod::Spec.new do |s|  
-    s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.87'
-    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia added support for Apple Swift version 6.2, swiftlang-6.2.0.19.9, Crash fixes.'
-    s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
-    s.author            = { 'Name' => 'parvenk@appinfoinc.com' }
-    s.license           = { :type => '' }
+Pod::Spec.new do |s|
+  s.name              = 'TravelSafelyBoneshell'
+  s.version           = '1.0.91'
+  s.summary           = 'TravelSafelyBoneshell SDK. Build with XCFramework For Metropia'
+  s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
+  s.author            = { 'Name' => 'parveenk@appinfoinc.com' }
+  s.license           = { :type => 'Commercial' }
 
-    s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Applied-Information/tsframework.git', :tag => s.version.to_s}
-    s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = 'TravelSafelyBoneshell.framework'
-    s.swift_version = '5.7'
-    s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.platform          = :ios, '13.0'
+  s.source            = { :git => 'https://github.com/Applied-Information/tsframework.git', :tag => s.version.to_s }
+  s.vendored_frameworks = 'TravelSafelyBoneshell.xcframework'
 end
