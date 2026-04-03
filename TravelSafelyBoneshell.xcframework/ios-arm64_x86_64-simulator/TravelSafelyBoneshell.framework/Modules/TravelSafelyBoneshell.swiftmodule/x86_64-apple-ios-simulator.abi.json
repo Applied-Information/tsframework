@@ -10395,42 +10395,42 @@
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362421,
+      "offset": 362582,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362444,
+      "offset": 362605,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362521,
+      "offset": 362682,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362671,
+      "offset": 362832,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 362698,
+      "offset": 362859,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 362766,
+      "offset": 362927,
       "length": 5,
       "value": "false"
     },
@@ -14105,105 +14105,105 @@
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 377,
+      "offset": 375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 406,
+      "offset": 404,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 436,
+      "offset": 434,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 464,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 536,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "BooleanLiteral",
-      "offset": 569,
+      "offset": 567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 601,
+      "offset": 599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 634,
+      "offset": 632,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 668,
+      "offset": 666,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 704,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 737,
+      "offset": 735,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 773,
+      "offset": 771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 803,
+      "offset": 801,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Downloads\/METROPIAAA\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Model\/DeviceData.swift",
       "kind": "IntegerLiteral",
-      "offset": 844,
+      "offset": 842,
       "length": 1,
       "value": "1"
     },

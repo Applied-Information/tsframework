@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8kX4R5bqUpwhEDzn7tsj6vrRyPI=
+		h7mGVL2nCUAkiziK4hNI4EyBSpE=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		naltx9KbcTpgUqLmUiyP9eiyHiY=
+		WOVIxCMCYdHrzFqrVLoCW51A4qI=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8kX4R5bqUpwhEDzn7tsj6vrRyPI=
+		h7mGVL2nCUAkiziK4hNI4EyBSpE=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fz8BnI4jPjJ4f6/2ZTTZSIsjIHE=
+		IaTXyZsbyKI3ygS8e42coQ/lnXQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOZRJjcXICA9PNShP5H1CPrr+Ouik+SiWJ5JJl752SY=
+			NUbN05vepZV7CMRuJoDPakd0y6jjqEiz7b/I8FvUqRg=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7caRMhGpEAkW1T7ZRIA5CJWfsURKVog9NaeB46/vBR4=
+			zeFn/r/9V5Tdns8/TpuyXSEiXWPMEhGmtxPCHqCo/e4=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOZRJjcXICA9PNShP5H1CPrr+Ouik+SiWJ5JJl752SY=
+			NUbN05vepZV7CMRuJoDPakd0y6jjqEiz7b/I8FvUqRg=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hz7fNyxyBcWnjCbUrYDFGPwsxraumq7zANMJa5hfOkU=
+			7UJYRmnsNK+hauPnZoJmXle/t5I/j5E/zpn2JSgo2pw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
