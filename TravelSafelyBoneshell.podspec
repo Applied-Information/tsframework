@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.101'
+    s.version           = '1.0.102'
     s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia latest sdk XmlParser issue fixed.'
     s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
 
