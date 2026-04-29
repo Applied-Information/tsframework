@@ -1,17 +1,19 @@
-Pod::Spec.new do |s|  
-    s.name              = 'TravelSafelyBoneshell'
-    s.version           = '1.0.103'
-    s.summary           = 'TravelSafelyBoneshell make your travels faster and safer SDK. Metropia latest sdk XmlParser related crash issue fixed.'
-    s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
+Pod::Spec.new do |s|
+  s.name              = 'TravelSafelyBoneshell'
+  s.version           = '1.0.104'
+  s.summary           = 'TravelSafelyBoneshell SDK. Build with Apple Swift version 6.3, Xcode:26.4 for Metropia with XCFramework with XML Parser realated issue and Xcode version.'
+  s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
+  s.author            = { 'Name' => 'parveenk@appinfoinc.com' }
+  s.license           = { :type => 'Commercial' }
 
-    s.author            = { 'Name' => 'parvenk@appinfoinc.com' }
-    s.license           = { :type => '' }
+  s.platform          = :ios, '13.0'
+  s.source            = { :git => 'https://github.com/Applied-Information/tsframework.git', :tag => s.version.to_s }
 
-    s.platform          = :ios
-    s.source            = { :git => 'https://github.com/Applied-Information/tsframework.git', :tag => s.version.to_s}
-    s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = 'TravelSafelyBoneshell.framework'
-    s.swift_version = '5.7'
-    s.pod_target_xcconfig = {'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.vendored_frameworks = 'TravelSafelyBoneshell.xcframework'
+  s.static_framework = false
+
+  # FORCE dynamic linking
+  s.pod_target_xcconfig = {
+    'MACH_O_TYPE' => 'mh_dylib'
+  }
 end
