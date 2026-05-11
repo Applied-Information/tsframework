@@ -1284,6 +1284,1125 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "StartViewController",
+        "printedName": "StartViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any TravelSafelyBoneshell.signalDataProtocol)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TravelSafelyBoneshell.signalDataProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "signalDataProtocol",
+                        "printedName": "any TravelSafelyBoneshell.signalDataProtocol",
+                        "usr": "s:21TravelSafelyBoneshell18signalDataProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any TravelSafelyBoneshell.signalDataProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "signalDataProtocol",
+                        "printedName": "any TravelSafelyBoneshell.signalDataProtocol",
+                        "usr": "s:21TravelSafelyBoneshell18signalDataProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC8delegateAA18signalDataProtocol_pSgvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authenticateWhenServiceAreaNotAvailable",
+            "printedName": "authenticateWhenServiceAreaNotAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvp",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvg",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvs",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvM",
+                "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC39authenticateWhenServiceAreaNotAvailableSbvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartViewController",
+                "printedName": "TravelSafelyBoneshell.StartViewController",
+                "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController(im)init",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerCACycfc",
+            "moduleName": "TravelSafelyBoneshell",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "switchTestOnDesk",
+            "printedName": "switchTestOnDesk(setVal:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC16switchTestOnDesk6setValySb_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC16switchTestOnDesk6setValySb_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateServiceAreaFromDemoSecond",
+            "printedName": "updateServiceAreaFromDemoSecond(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC31updateServiceAreaFromDemoSecondyySo12NSDictionaryCF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC31updateServiceAreaFromDemoSecondyySo12NSDictionaryCF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateServiceAreaFromFixedLocation",
+            "printedName": "updateServiceAreaFromFixedLocation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC34updateServiceAreaFromFixedLocationyySo12NSDictionaryCF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC34updateServiceAreaFromFixedLocationyySo12NSDictionaryCF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateStaticlocationArray",
+            "printedName": "updateStaticlocationArray(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC25updateStaticlocationArrayyySo12NSDictionaryCF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC25updateStaticlocationArrayyySo12NSDictionaryCF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "testOnDeskSwitch",
+            "printedName": "testOnDeskSwitch()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC16testOnDeskSwitchyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC16testOnDeskSwitchyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLocationandCallOthers",
+            "printedName": "updateLocationandCallOthers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC27updateLocationandCallOthersyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC27updateLocationandCallOthersyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "determineUserModeAutomatically",
+            "printedName": "determineUserModeAutomatically()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController(im)determineUserModeAutomatically",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC30determineUserModeAutomaticallyyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLocalData",
+            "printedName": "setLocalData(type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC12setLocalData4typeySS_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC12setLocalData4typeySS_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showActionSheetToGetDeviceID",
+            "printedName": "showActionSheetToGetDeviceID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC28showActionSheetToGetDeviceIDyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC28showActionSheetToGetDeviceIDyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadFloatingButtons",
+            "printedName": "reloadFloatingButtons()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21reloadFloatingButtonsyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21reloadFloatingButtonsyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVehicleModeText",
+            "printedName": "setVehicleModeText(vehicleModeLbl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18setVehicleModeText07vehicleI3LblySS_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18setVehicleModeText07vehicleI3LblySS_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSocketConnection",
+            "printedName": "stopSocketConnection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC20stopSocketConnectionyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC20stopSocketConnectionyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBottomBarButtonIcon",
+            "printedName": "setBottomBarButtonIcon(vehicleMode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC22setBottomBarButtonIcon11vehicleModeySS_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC22setBottomBarButtonIcon11vehicleModeySS_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doOncePerSecond",
+            "printedName": "doOncePerSecond()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC15doOncePerSecondyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC15doOncePerSecondyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkActiveSpat",
+            "printedName": "checkActiveSpat()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC15checkActiveSpatyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC15checkActiveSpatyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "phases_onSelect",
+            "printedName": "phases_onSelect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC15phases_onSelectyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC15phases_onSelectyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTraficSignalsRepete",
+            "printedName": "setTraficSignalsRepete()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController(im)setTraficSignalsRepete",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC22setTraficSignalsRepeteyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTrafficSignals",
+            "printedName": "setTrafficSignals()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC17setTrafficSignalsyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC17setTrafficSignalsyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "travelSafelyVisibility",
+            "printedName": "travelSafelyVisibility(setVisibility:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC06travelB10Visibility03setH0ySb_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC06travelB10Visibility03setH0ySb_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkPreemption",
+            "printedName": "checkPreemption()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC15checkPreemptionyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC15checkPreemptionyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listenToServer",
+            "printedName": "listenToServer(readData:fromUblox:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController(im)listenToServerWithReadData:fromUblox:",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC14listenToServer8readData9fromUbloxy10Foundation0K0V_SbtF",
+            "moduleName": "TravelSafelyBoneshell",
+            "objc_name": "listenToServerWithReadData:fromUblox:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "niceName",
+            "printedName": "niceName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC8niceNameyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC8niceNameyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateServiceAreaValue",
+            "printedName": "updateServiceAreaValue()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC22updateServiceAreaValueyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC22updateServiceAreaValueyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidTimerDuringLogout",
+            "printedName": "invalidTimerDuringLogout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController(im)invalidTimerDuringLogout",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC24invalidTimerDuringLogoutyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setuserConfig",
+            "printedName": "setuserConfig(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC13setuserConfig5valueySi_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC13setuserConfig5valueySi_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "motTapped",
+            "printedName": "motTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC9motTappedyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC9motTappedyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cycTapped",
+            "printedName": "cycTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC9cycTappedyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC9cycTappedyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pedTapped",
+            "printedName": "pedTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC9pedTappedyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC9pedTappedyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearSpatArray",
+            "printedName": "clearSpatArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC14clearSpatArrayyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC14clearSpatArrayyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearDeviceSpatArray",
+            "printedName": "clearDeviceSpatArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC20clearDeviceSpatArrayyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC20clearDeviceSpatArrayyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSpecificBeaconType",
+            "printedName": "setSpecificBeaconType(values:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21setSpecificBeaconType6valuesySSd_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21setSpecificBeaconType6valuesySSd_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceFinderWithTSLib",
+            "printedName": "deviceFinderWithTSLib(deviceID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC21deviceFinderWithTSLib0G2IDys6UInt32V_tF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC21deviceFinderWithTSLib0G2IDys6UInt32V_tF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnectFromSDk",
+            "printedName": "disconnectFromSDk()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC17disconnectFromSDkyyF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC17disconnectFromSDkyyF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "UpdateLocationData",
+            "printedName": "UpdateLocationData(latitude:longitude:speed:bearing:altitude:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TravelSafelyBoneshell19StartViewControllerC18UpdateLocationData8latitude9longitude5speed7bearing8altitudeySd_SdS2fSdtF",
+            "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC18UpdateLocationData8latitude9longitude5speed7bearing8altitudeySd_SdS2fSdtF",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController",
+        "mangledName": "$s21TravelSafelyBoneshell19StartViewControllerC",
+        "moduleName": "TravelSafelyBoneshell",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -7450,6 +8569,92 @@
           },
           {
             "kind": "Var",
+            "name": "startVC",
+            "printedName": "startVC",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartViewController",
+                "printedName": "TravelSafelyBoneshell.StartViewController",
+                "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvp",
+            "mangledName": "$s21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvp",
+            "moduleName": "TravelSafelyBoneshell",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartViewController",
+                    "printedName": "TravelSafelyBoneshell.StartViewController",
+                    "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvg",
+                "mangledName": "$s21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvg",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartViewController",
+                    "printedName": "TravelSafelyBoneshell.StartViewController",
+                    "usr": "c:@M@TravelSafelyBoneshell@objc(cs)StartViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvs",
+                "mangledName": "$s21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvs",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvM",
+                "mangledName": "$s21TravelSafelyBoneshell20AppSingletonVariableC7startVCAA19StartViewControllerCvM",
+                "moduleName": "TravelSafelyBoneshell",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "laneMapDataArray",
             "printedName": "laneMapDataArray",
             "children": [
@@ -8827,1610 +10032,1610 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 2354,
+      "offset": 2361,
       "length": 10,
       "value": "[\"\", \"\", \"\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2503,
+      "offset": 2510,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2540,
+      "offset": 2547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2576,
+      "offset": 2583,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2621,
+      "offset": 2628,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2663,
+      "offset": 2670,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2704,
+      "offset": 2711,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2744,
+      "offset": 2751,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 2788,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2817,
+      "offset": 2824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2851,
+      "offset": 2858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2910,
+      "offset": 2917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2944,
+      "offset": 2951,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 2996,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3028,
+      "offset": 3035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 3074,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3100,
+      "offset": 3107,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3151,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3184,
+      "offset": 3191,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3224,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3255,
+      "offset": 3262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3289,
+      "offset": 3296,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3322,
+      "offset": 3329,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3734,
+      "offset": 3741,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3812,
+      "offset": 3819,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3859,
+      "offset": 3866,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3938,
+      "offset": 3945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3994,
+      "offset": 4001,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4017,
+      "offset": 4024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4057,
+      "offset": 4064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4185,
+      "offset": 4192,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4223,
+      "offset": 4230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4553,
+      "offset": 4560,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4583,
+      "offset": 4590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4613,
+      "offset": 4620,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4646,
+      "offset": 4653,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4678,
+      "offset": 4685,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4755,
+      "offset": 4762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4859,
+      "offset": 4866,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4894,
+      "offset": 4901,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4946,
+      "offset": 4953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4980,
+      "offset": 4987,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5038,
+      "offset": 5045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5105,
+      "offset": 5112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5169,
+      "offset": 5176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5206,
+      "offset": 5213,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5233,
+      "offset": 5240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5268,
+      "offset": 5275,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5306,
+      "offset": 5313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5343,
+      "offset": 5350,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5378,
+      "offset": 5385,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5446,
+      "offset": 5453,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5473,
+      "offset": 5480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5583,
+      "offset": 5590,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5617,
+      "offset": 5624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5791,
+      "offset": 5798,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5849,
+      "offset": 5856,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5990,
+      "offset": 5997,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6031,
+      "offset": 6038,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6075,
+      "offset": 6082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6113,
+      "offset": 6120,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6161,
+      "offset": 6168,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6203,
+      "offset": 6210,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6257,
+      "offset": 6264,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6267,
+      "offset": 6274,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6319,
+      "offset": 6326,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6329,
+      "offset": 6336,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6377,
+      "offset": 6384,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6387,
+      "offset": 6394,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6586,
+      "offset": 6593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 6621,
+      "offset": 6628,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6777,
+      "offset": 6784,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6841,
+      "offset": 6848,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6960,
+      "offset": 6967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7061,
+      "offset": 7068,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7092,
+      "offset": 7099,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7127,
+      "offset": 7134,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7171,
+      "offset": 7178,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7214,
+      "offset": 7221,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7266,
+      "offset": 7273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7366,
+      "offset": 7373,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7462,
+      "offset": 7469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7498,
+      "offset": 7505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7598,
+      "offset": 7605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7699,
+      "offset": 7706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7801,
+      "offset": 7808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7836,
+      "offset": 7843,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7871,
+      "offset": 7878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8220,
+      "offset": 8227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8264,
+      "offset": 8271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8309,
+      "offset": 8316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8348,
+      "offset": 8355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8387,
+      "offset": 8394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8426,
+      "offset": 8433,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8456,
+      "offset": 8463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8490,
+      "offset": 8497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8525,
+      "offset": 8532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8559,
+      "offset": 8566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8594,
+      "offset": 8601,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8634,
+      "offset": 8641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8674,
+      "offset": 8681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8717,
+      "offset": 8724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8760,
+      "offset": 8767,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8804,
+      "offset": 8811,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8844,
+      "offset": 8851,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9886,
+      "offset": 9893,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10018,
+      "offset": 10025,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10047,
+      "offset": 10054,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10076,
+      "offset": 10083,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10105,
+      "offset": 10112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10134,
+      "offset": 10141,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10420,
+      "offset": 10427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10589,
+      "offset": 10596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10859,
+      "offset": 10866,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10919,
+      "offset": 10926,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11030,
+      "offset": 11037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11108,
+      "offset": 11115,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11119,
+      "offset": 11126,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11147,
+      "offset": 11154,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11220,
+      "offset": 11227,
       "length": 29,
       "value": "[2, 10, 42, 162, 34, 130, 138, 170]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11284,
+      "offset": 11291,
       "length": 25,
       "value": "[8, 10, 40, 42, 136, 168, 170]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11344,
+      "offset": 11351,
       "length": 29,
       "value": "[32, 34, 40, 42, 138, 160, 168, 170]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11408,
+      "offset": 11415,
       "length": 29,
       "value": "[128, 130, 138, 136, 160, 168, 170]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11465,
+      "offset": 11472,
       "length": 57,
       "value": "[\"2\", \"2,4\", \"2,6\", \"2,8\", \"2,4,6\", \"2,4,8\", \"2,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11545,
+      "offset": 11552,
       "length": 57,
       "value": "[\"4\", \"2,4\", \"4,6\", \"4,8\", \"2,4,6\", \"4,6,8\", \"2,4,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11625,
+      "offset": 11632,
       "length": 57,
       "value": "[\"6\", \"2,6\", \"4,6\", \"6,8\", \"2,4,6\", \"4,6,8\", \"2,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 11705,
+      "offset": 11712,
       "length": 57,
       "value": "[\"8\", \"2,8\", \"4,8\", \"6,8\", \"2,4,8\", \"2,6,8\", \"4,6,8\", \"2,4,6,8\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11797,
+      "offset": 11804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11960,
+      "offset": 11967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12030,
+      "offset": 12037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12062,
+      "offset": 12069,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12093,
+      "offset": 12100,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12201,
+      "offset": 12208,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12255,
+      "offset": 12262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12284,
+      "offset": 12291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12315,
+      "offset": 12322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12355,
+      "offset": 12362,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12394,
+      "offset": 12401,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12431,
+      "offset": 12438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12464,
+      "offset": 12471,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12502,
+      "offset": 12509,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12815,
+      "offset": 12822,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12851,
+      "offset": 12858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12882,
+      "offset": 12889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13060,
+      "offset": 13067,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13100,
+      "offset": 13107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13380,
+      "offset": 13387,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13406,
+      "offset": 13413,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13448,
+      "offset": 13455,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13479,
+      "offset": 13486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 13532,
+      "offset": 13539,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 13796,
+      "offset": 13803,
       "length": 934,
       "value": "[\"No Alert\", \"Red light\", \"Speeding in school zone\", \"Slow down - Curve ahead\", \"Speeding in slow speed zone\", \"Speeding in work zone\", \"Warning wrong way – Turn around\", \"Stop for pedestrian\", \"High speed vehicle\", \"Emergency vehicle\", \"Emergency vehicle left\", \"Emergency vehicle right\", \"Emergency vehicle front\", \"Emergency vehicle behind\", \"Cyclist\", \"Pedestrian\", \"Brake\", \"School Bus\", \"INTERSECTION IN DARK. TREAT AS 4-WAY STOP\", \"Intersection is in flash, proceed with caution\", \"High speed vehicle caution\", \"Cyclist Alert\", \"Pedestrian Alert\", \"Railroad ahead Alert\", \"Stop sign ahead Alert\", \"Watch for Pedestrian on Left\", \"Watch for Pedestrian on Right\", \"Warning Wrong Way Driver ahead, Use Caution\", \"Warning Wrong Way Driver on Roadway, Use Caution\", \"STOP PEDESTRIAN\", \"Pedestrian ahead\", \"Caution High Water Ahead\", \"Warning Flooding Ahead\", \"Caution Overheight Vehicle Ahead\", \"Caution Overheight - Turn Back\", \"AnonymousID force refreshed Alert\"]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 172164,
+      "offset": 172171,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 172227,
+      "offset": 172234,
       "length": 10,
       "value": "\"gpsSpeed\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 172328,
+      "offset": 172335,
       "length": 3,
       "value": "3.6"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 172414,
+      "offset": 172421,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173441,
+      "offset": 173448,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173558,
+      "offset": 173565,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173579,
+      "offset": 173586,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 173636,
+      "offset": 173643,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174007,
+      "offset": 174014,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174061,
+      "offset": 174068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174098,
+      "offset": 174105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174137,
+      "offset": 174144,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174189,
+      "offset": 174196,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174193,
+      "offset": 174200,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174238,
+      "offset": 174245,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174278,
+      "offset": 174285,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174451,
+      "offset": 174458,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174456,
+      "offset": 174463,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174501,
+      "offset": 174508,
       "length": 2,
       "value": "17"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174542,
+      "offset": 174549,
       "length": 6,
       "value": "0x0001"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 174871,
+      "offset": 174878,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175060,
+      "offset": 175067,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175125,
+      "offset": 175132,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175168,
+      "offset": 175175,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175173,
+      "offset": 175180,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175406,
+      "offset": 175413,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 175412,
+      "offset": 175419,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 175539,
+      "offset": 175546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 175888,
+      "offset": 175895,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 176420,
+      "offset": 176427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176503,
+      "offset": 176510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176560,
+      "offset": 176567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176636,
+      "offset": 176643,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 176788,
+      "offset": 176795,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 177007,
+      "offset": 177014,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177541,
+      "offset": 177548,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177681,
+      "offset": 177688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 177827,
+      "offset": 177834,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 178055,
+      "offset": 178062,
       "length": 53,
       "value": "\"array out of bounds exception, checkGreenLightAlert\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 178115,
+      "offset": 178122,
       "length": 4,
       "value": "1010"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217266,
+      "offset": 217273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 217295,
+      "offset": 217302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217326,
+      "offset": 217333,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217353,
+      "offset": 217360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217378,
+      "offset": 217385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217405,
+      "offset": 217412,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217431,
+      "offset": 217438,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217454,
+      "offset": 217461,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 217489,
+      "offset": 217496,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217672,
+      "offset": 217679,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217871,
+      "offset": 217878,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 217919,
+      "offset": 217926,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 218206,
+      "offset": 218213,
       "length": 4,
       "value": "0x7E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 218305,
+      "offset": 218312,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 218424,
+      "offset": 218431,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 218516,
+      "offset": 218523,
       "length": 4,
       "value": "0x7D"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 218790,
+      "offset": 218797,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 218836,
+      "offset": 218843,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219043,
+      "offset": 219050,
       "length": 4,
       "value": "0x5E"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219110,
+      "offset": 219117,
       "length": 4,
       "value": "0x5D"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219170,
+      "offset": 219177,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219304,
+      "offset": 219311,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219546,
+      "offset": 219553,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219684,
+      "offset": 219691,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 219875,
+      "offset": 219882,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 219960,
+      "offset": 219967,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220047,
+      "offset": 220054,
       "length": 9,
       "value": "\"No data\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 220169,
+      "offset": 220176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 220380,
+      "offset": 220387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "StringLiteral",
-      "offset": 220637,
+      "offset": 220644,
       "length": 15,
       "value": "\"Routing agent\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 220754,
+      "offset": 220761,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "Array",
-      "offset": 266698,
+      "offset": 266705,
       "length": 2305,
       "value": "[0x0000, 0x1189, 0x2312, 0x329b, 0x4624, 0x57ad, 0x6536, 0x74bf, 0x8c48, 0x9dc1, 0xaf5a, 0xbed3, 0xca6c, 0xdbe5, 0xe97e, 0xf8f7, 0x1081, 0x0108, 0x3393, 0x221a, 0x56a5, 0x472c, 0x75b7, 0x643e, 0x9cc9, 0x8d40, 0xbfdb, 0xae52, 0xdaed, 0xcb64, 0xf9ff, 0xe876, 0x2102, 0x308b, 0x0210, 0x1399, 0x6726, 0x76af, 0x4434, 0x55bd, 0xad4a, 0xbcc3, 0x8e58, 0x9fd1, 0xeb6e, 0xfae7, 0xc87c, 0xd9f5, 0x3183, 0x200a, 0x1291, 0x0318, 0x77a7, 0x662e, 0x54b5, 0x453c, 0xbdcb, 0xac42, 0x9ed9, 0x8f50, 0xfbef, 0xea66, 0xd8fd, 0xc974, 0x4204, 0x538d, 0x6116, 0x709f, 0x0420, 0x15a9, 0x2732, 0x36bb, 0xce4c, 0xdfc5, 0xed5e, 0xfcd7, 0x8868, 0x99e1, 0xab7a, 0xbaf3, 0x5285, 0x430c, 0x7197, 0x601e, 0x14a1, 0x0528, 0x37b3, 0x263a, 0xdecd, 0xcf44, 0xfddf, 0xec56, 0x98e9, 0x8960, 0xbbfb, 0xaa72, 0x6306, 0x728f, 0x4014, 0x519d, 0x2522, 0x34ab, 0x0630, 0x17b9, 0xef4e, 0xfec7, 0xcc5c, 0xddd5, 0xa96a, 0xb8e3, 0x8a78, 0x9bf1, 0x7387, 0x620e, 0x5095, 0x411c, 0x35a3, 0x242a, 0x16b1, 0x0738, 0xffcf, 0xee46, 0xdcdd, 0xcd54, 0xb9eb, 0xa862, 0x9af9, 0x8b70, 0x8408, 0x9581, 0xa71a, 0xb693, 0xc22c, 0xd3a5, 0xe13e, 0xf0b7, 0x0840, 0x19c9, 0x2b52, 0x3adb, 0x4e64, 0x5fed, 0x6d76, 0x7cff, 0x9489, 0x8500, 0xb79b, 0xa612, 0xd2ad, 0xc324, 0xf1bf, 0xe036, 0x18c1, 0x0948, 0x3bd3, 0x2a5a, 0x5ee5, 0x4f6c, 0x7df7, 0x6c7e, 0xa50a, 0xb483, 0x8618, 0x9791, 0xe32e, 0xf2a7, 0xc03c, 0xd1b5, 0x2942, 0x38cb, 0x0a50, 0x1bd9, 0x6f66, 0x7eef, 0x4c74, 0x5dfd, 0xb58b, 0xa402, 0x9699, 0x8710, 0xf3af, 0xe226, 0xd0bd, 0xc134, 0x39c3, 0x284a, 0x1ad1, 0x0b58, 0x7fe7, 0x6e6e, 0x5cf5, 0x4d7c, 0xc60c, 0xd785, 0xe51e, 0xf497, 0x8028, 0x91a1, 0xa33a, 0xb2b3, 0x4a44, 0x5bcd, 0x6956, 0x78df, 0x0c60, 0x1de9, 0x2f72, 0x3efb, 0xd68d, 0xc704, 0xf59f, 0xe416, 0x90a9, 0x8120, 0xb3bb, 0xa232, 0x5ac5, 0x4b4c, 0x79d7, 0x685e, 0x1ce1, 0x0d68, 0x3ff3, 0x2e7a, 0xe70e, 0xf687, 0xc41c, 0xd595, 0xa12a, 0xb0a3, 0x8238, 0x93b1, 0x6b46, 0x7acf, 0x4854, 0x59dd, 0x2d62, 0x3ceb, 0x0e70, 0x1ff9, 0xf78f, 0xe606, 0xd49d, 0xc514, 0xb1ab, 0xa022, 0x92b9, 0x8330, 0x7bc7, 0x6a4e, 0x58d5, 0x495c, 0x3de3, 0x2c6a, 0x1ef1, 0x0f78]"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362592,
+      "offset": 362599,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362615,
+      "offset": 362622,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362692,
+      "offset": 362699,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362842,
+      "offset": 362849,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 362869,
+      "offset": 362876,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Controllers\/StartViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 362937,
+      "offset": 362944,
       "length": 5,
       "value": "false"
     },
@@ -10479,14 +11684,14 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/MySocketFile.swift",
       "kind": "FloatLiteral",
-      "offset": 8376,
+      "offset": 8520,
       "length": 4,
       "value": "1e-7"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/MySocketFile.swift",
       "kind": "FloatLiteral",
-      "offset": 8453,
+      "offset": 8597,
       "length": 6,
       "value": "0.0001"
     },
@@ -13328,448 +14533,448 @@
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 931,
+      "offset": 937,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 967,
+      "offset": 973,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 991,
+      "offset": 997,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1080,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 1106,
+      "offset": 1112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1143,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 1176,
+      "offset": 1182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 1209,
+      "offset": 1215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "FloatLiteral",
-      "offset": 1245,
+      "offset": 1251,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "FloatLiteral",
-      "offset": 1277,
+      "offset": 1283,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 2022,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 2056,
+      "offset": 2062,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2311,
+      "offset": 2317,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2346,
+      "offset": 2352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2386,
+      "offset": 2392,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2418,
+      "offset": 2424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2453,
+      "offset": 2459,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2493,
+      "offset": 2499,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 2688,
+      "offset": 2694,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2750,
+      "offset": 2756,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2787,
+      "offset": 2793,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 2817,
+      "offset": 2823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "FloatLiteral",
-      "offset": 2857,
+      "offset": 2863,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 2996,
+      "offset": 3002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3164,
+      "offset": 3170,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 3212,
+      "offset": 3218,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 3282,
+      "offset": 3288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 3402,
+      "offset": 3408,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3494,
+      "offset": 3500,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3528,
+      "offset": 3534,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3568,
+      "offset": 3574,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3605,
+      "offset": 3611,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3642,
+      "offset": 3648,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 3683,
+      "offset": 3689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 3734,
+      "offset": 3740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3776,
+      "offset": 3782,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3816,
+      "offset": 3822,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 3855,
+      "offset": 3861,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4041,
+      "offset": 4047,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4079,
+      "offset": 4085,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 4151,
+      "offset": 4157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4196,
+      "offset": 4202,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4237,
+      "offset": 4243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4310,
+      "offset": 4316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "StringLiteral",
-      "offset": 4348,
+      "offset": 4354,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4374,
+      "offset": 4380,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4405,
+      "offset": 4411,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4433,
+      "offset": 4439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4470,
+      "offset": 4476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4506,
+      "offset": 4512,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4542,
+      "offset": 4548,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4578,
+      "offset": 4584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4614,
+      "offset": 4620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4650,
+      "offset": 4656,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4686,
+      "offset": 4692,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4722,
+      "offset": 4728,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4758,
+      "offset": 4764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "BooleanLiteral",
-      "offset": 4794,
+      "offset": 4800,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4825,
+      "offset": 4831,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4904,
+      "offset": 4910,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4934,
+      "offset": 4940,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/appliedinformation\/Documents\/Metropia\/Metropia-Xcode-version-Support\/Metropia-SDK--latest\/TravelSafelyBoneshell\/Helpers\/AppSingletonVariable.swift",
       "kind": "IntegerLiteral",
-      "offset": 4959,
+      "offset": 4965,
       "length": 1,
       "value": "0"
     },

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TravelSafelyBoneshell
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AVFoundation
 import AudioToolbox
 import CocoaAsyncSocket
@@ -45,6 +45,46 @@ public struct imageDataStored {
 public protocol signalDataProtocol : AnyObject {
   func storeDataProtocol(_ myData: Swift.String)
   init()
+}
+@objc @_inheritsConvenienceInitializers public class StartViewController : ObjectiveC.NSObject, CoreLocation.CLLocationManagerDelegate {
+  weak public var delegate: (any TravelSafelyBoneshell.signalDataProtocol)?
+  public var authenticateWhenServiceAreaNotAvailable: Swift.Bool
+  @objc override dynamic public init()
+  public func switchTestOnDesk(setVal: Swift.Bool)
+  public func updateServiceAreaFromDemoSecond(_ notification: Foundation.NSDictionary)
+  public func updateServiceAreaFromFixedLocation(_ notification: Foundation.NSDictionary)
+  public func updateStaticlocationArray(_ notification: Foundation.NSDictionary)
+  public func testOnDeskSwitch()
+  public func updateLocationandCallOthers()
+  @objc public func determineUserModeAutomatically()
+  public func setLocalData(type: Swift.String)
+  public func showActionSheetToGetDeviceID()
+  public func reloadFloatingButtons()
+  public func setVehicleModeText(vehicleModeLbl: Swift.String)
+  public func stopSocketConnection()
+  public func setBottomBarButtonIcon(vehicleMode: Swift.String)
+  public func doOncePerSecond()
+  public func checkActiveSpat()
+  public func phases_onSelect()
+  @objc public func setTraficSignalsRepete()
+  public func setTrafficSignals()
+  public func travelSafelyVisibility(setVisibility: Swift.Bool)
+  public func checkPreemption()
+  @objc public func listenToServer(readData: Foundation.Data, fromUblox: Swift.Bool)
+  public func niceName()
+  public func updateServiceAreaValue()
+  @objc public func invalidTimerDuringLogout()
+  public func setuserConfig(value: Swift.Int)
+  public func motTapped()
+  public func cycTapped()
+  public func pedTapped()
+  public func clearSpatArray()
+  public func clearDeviceSpatArray()
+  public func setSpecificBeaconType(values: Swift.String...)
+  public func deviceFinderWithTSLib(deviceID: Swift.UInt32)
+  public func disconnectFromSDk()
+  public func UpdateLocationData(latitude: _LocationEssentials.CLLocationDegrees, longitude: _LocationEssentials.CLLocationDegrees, speed: Swift.Float, bearing: Swift.Float, altitude: _LocationEssentials.CLLocationDistance)
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class StartViewHelper : ObjectiveC.NSObject {
   public class func cleardata()
@@ -169,6 +209,7 @@ public struct alarmAndAlertStruct {
   public var alertString: Swift.String
   public var isAlarm: Swift.Bool
   public var cityName: Swift.String
+  public var startVC: TravelSafelyBoneshell.StartViewController
   public var laneMapDataArray: Foundation.NSMutableArray
   public var deviceString: Swift.String
   public var laneString: Swift.String
