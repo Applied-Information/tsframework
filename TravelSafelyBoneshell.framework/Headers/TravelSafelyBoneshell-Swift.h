@@ -346,6 +346,7 @@ extern "C" {
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CocoaAsyncSocket;
 @import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
@@ -405,6 +406,13 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell26AutoDetectVehicleAlgorithm")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+SWIFT_CLASS("_TtC21TravelSafelyBoneshell6BaseVC")
+@interface BaseVC : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class CLLocationManager;
 @class CLLocation;
 @class CLHeading;
@@ -421,12 +429,25 @@ SWIFT_CLASS("_TtC21TravelSafelyBoneshell6Helper")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GCDAsyncSocket;
+@class NSData;
+SWIFT_CLASS("_TtC21TravelSafelyBoneshell12MySocketFile")
+@interface MySocketFile : NSObject <GCDAsyncSocketDelegate, NSNetServiceDelegate, NSStreamDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)socket:(GCDAsyncSocket * _Nonnull)socket didConnectToHost:(NSString * _Nonnull)host port:(uint16_t)p;
+- (void)socketDidDisconnect:(GCDAsyncSocket * _Nonnull)socket withError:(NSError * _Nullable)err;
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didReadPartialDataOfLength:(NSUInteger)partialLength tag:(NSInteger)tag;
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didWriteDataWithTag:(NSInteger)tag;
+- (void)socket:(GCDAsyncSocket * _Nonnull)_sock didReadData:(NSData * _Nonnull)data withTag:(NSInteger)tag;
+- (void)socket:(GCDAsyncSocket * _Nonnull)sock didAcceptNewSocket:(GCDAsyncSocket * _Nonnull)newSocket;
+@end
+
 SWIFT_CLASS("_TtC21TravelSafelyBoneshell17SafetyMessageData")
 @interface SafetyMessageData : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSData;
 SWIFT_CLASS("_TtC21TravelSafelyBoneshell19StartViewController")
 @interface StartViewController : NSObject <CLLocationManagerDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
