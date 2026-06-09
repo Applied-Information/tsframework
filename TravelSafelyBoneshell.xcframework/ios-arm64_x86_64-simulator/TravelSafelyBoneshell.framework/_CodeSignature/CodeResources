@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xugfwkWJXzEcrB/c64Ra8ZR03iY=
+		a+edeDfmqosNZNv3WSscJPsyf9g=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fBZKJ7WqivWeHh/klR36jkFpk88=
+		t22ICyaAPzYH3fIzOoO+j12/QXs=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xugfwkWJXzEcrB/c64Ra8ZR03iY=
+		a+edeDfmqosNZNv3WSscJPsyf9g=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9Jidn/XXP3h/du8k9nm153x2th0=
+		HNCGVWXbXPtpfPaUW0CfpaUvPFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tneOC4aceMaDw1LJeMVk9CSEBfEmCSyrCk1jwGxOO6Q=
+			FAJVJ9qEjwn0nT5sZEhhgMXhWUgP/Ym+nrzvllM96PQ=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ftImTfPdMex/8cxgJ3s83obdT1mJDA0g5IOyyc6cOc=
+			qDQ6ROHO6UieS9evtummOE5p6huGbPIf5gY45rMKApc=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tneOC4aceMaDw1LJeMVk9CSEBfEmCSyrCk1jwGxOO6Q=
+			FAJVJ9qEjwn0nT5sZEhhgMXhWUgP/Ym+nrzvllM96PQ=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OGbuCW7ios/ki/z+lXL3VHzTxvZ/mPZdh3EqgYjlJDk=
+			fchKzZ3AoRzPYoTrv9C+DE6uf2unFPtIY1GsAw6dpXU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
