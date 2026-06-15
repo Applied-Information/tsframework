@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'TravelSafelyBoneshell'
-  s.version           = '1.0.112'
+  s.version           = '1.0.113'
   s.summary           = 'TravelSafelyBoneshell SDK. Build with Apple Swift version 6.3.2, Version 26.5 for Metropia with XCFramework with XML Parser and Beaon State check.'
   s.homepage          = 'https://github.com/Applied-Information/tsframework.git'
   s.author            = { 'Name' => 'parveenk@appinfoinc.com' }
