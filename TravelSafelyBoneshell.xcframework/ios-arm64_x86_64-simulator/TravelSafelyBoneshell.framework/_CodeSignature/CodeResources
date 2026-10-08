@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TravelSafelyBoneshell-Swift.h</key>
 		<data>
-		wQUlCfI0A75l9PueyrBPO1FtJqY=
+		i7WGpSZrxHuYCdDSYbXkMyELWoM=
 		</data>
 		<key>Headers/TravelSafelyBoneshell.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0C3g2wNq/rQADhyv5RGN6I49cjU=
+		Uj7EsSEaFxuA2qc4WEILhjFSci4=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		rtjIO1HlQLYLAr+5HoFs+vcVRcs=
+		obPZ5kaDt/aawidtYbEy5z96ER0=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bvJizButZzG23zO6JO0AbBD6w3g=
+		7oOPSSQVAfEm5fAQaJDBnfCREV8=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Tn2bRR1ArI3A59y7RaO0g7i+rU0=
+		P6jnBGlZRkiW1dAmBXdBhpGO2OI=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bvJizButZzG23zO6JO0AbBD6w3g=
+		7oOPSSQVAfEm5fAQaJDBnfCREV8=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6l+YqDXrykVBiK1LboFXWb2L1YQ=
+		nOoRIBKBC0Tez7GHjvQ9vk1G9Vc=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		rtjIO1HlQLYLAr+5HoFs+vcVRcs=
+		obPZ5kaDt/aawidtYbEy5z96ER0=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H6giQ59vx8pz38T+BFcgaqyM4ec=
+		0us8fQFI870D1u0xdZDDNobLvR4=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZkPVIEa74isP6XQXaI7YkitSqZU=
+		+WqYGznEN9Q6ESuCWRTzkI0F2Rs=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		H6giQ59vx8pz38T+BFcgaqyM4ec=
+		0us8fQFI870D1u0xdZDDNobLvR4=
 		</data>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iczQiO4Ezex4twkwZWI8e0+rsjQ=
+		QvqiFHWrw5y9ykxPU3IX1KX1ShM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4/bNJ6XjC+zCkWfVROdm6yXAZkzWFwJZiSdUpBtEas=
+			yepncFljcYmBLxCiWoYmo6jKCsAnFJGWAhu+c9076PI=
 			</data>
 		</dict>
 		<key>Headers/TravelSafelyBoneshell.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/y8C2LFvP1/njyIhqp6uGjohWIQxwlJqf9Hf0jTvRIg=
+			0gyC0Je8qGApk6rp3YxxBoZZ9OGhafqfauwT0UUnemo=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lh71Te6R5wMF+1gyzxsVWq2yQPwI+VX7h5xZPZfDX/Y=
+			r9P7WhaGULZLkJg96YpqqkFDaTaOa2gBsUtden4IWHQ=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TceU37G5rCHaNUlLdmy4KABQsl5Z8OnBiajjeVK+E28=
+			smViGSJAwMQkTMWdwhxSEwu+WdpEZua9MKiSzGOkEh8=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lh71Te6R5wMF+1gyzxsVWq2yQPwI+VX7h5xZPZfDX/Y=
+			r9P7WhaGULZLkJg96YpqqkFDaTaOa2gBsUtden4IWHQ=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jDHtXXZWhXbZ5Bw12xHveEjN5jG1ES/PLId3gbYIj/I=
+			9cR+ZXvUalTbtzyvEg15aBo2m44c5CXCE3vTHBWdcBA=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/y8C2LFvP1/njyIhqp6uGjohWIQxwlJqf9Hf0jTvRIg=
+			0gyC0Je8qGApk6rp3YxxBoZZ9OGhafqfauwT0UUnemo=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhBL3Q8RsNNEoNnxCYwHtdCZCZwBhcmPRgxVWRQBtKg=
+			tK3hAxlfyOz4a6JLsZF/ebySOlLMYdv/JVi97l3kOrg=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XCt9xfFlL/W4WQ9qYIMMLHxnIRrRK6nrnxVsb6xB88A=
+			nUwo3bsaNqJnwYW6B7faCfQCxHodmOtqhA66w4mkDWY=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhBL3Q8RsNNEoNnxCYwHtdCZCZwBhcmPRgxVWRQBtKg=
+			tK3hAxlfyOz4a6JLsZF/ebySOlLMYdv/JVi97l3kOrg=
 			</data>
 		</dict>
 		<key>Modules/TravelSafelyBoneshell.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zpzo0v65dorLqsRlNMXOUTuVcgdk62pntKwQx8aUjg8=
+			KHdxJ/1KsSFW3WcQJ7uBcI3l//1geW69FY8lUNLiMG0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
