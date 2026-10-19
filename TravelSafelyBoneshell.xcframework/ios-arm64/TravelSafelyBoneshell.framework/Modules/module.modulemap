@@ -7,5 +7,4 @@ framework module TravelSafelyBoneshell {
 
 module TravelSafelyBoneshell.Swift {
   header "TravelSafelyBoneshell-Swift.h"
-  requires objc
 }
